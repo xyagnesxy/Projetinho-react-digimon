@@ -1,0 +1,84 @@
+.selection-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(180deg, #0a0a0a 0%, #1a1a1a 100%);
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
+
+.digimon-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 24px;
+  width: 80%;
+  max-width: 800px;
+  margin-top: 20px;
+}
+
+.digimon-card {
+  position: relative;
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid transparent;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border 0.25s ease;
+  cursor: pointer;
+}
+
+.digimon-card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+}
+
+.digimon-card:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 16px rgba(255, 255, 255, 0.3);
+  border-color: #ffcc00;
+}
+
+.digimon-name {
+  text-align: center;
+  padding: 8px;
+  background: rgba(0, 0, 0, 0.4);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.selected-preview {
+  margin-top: 32px;
+  text-align: center;
+}
+
+.selected-preview img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.25);
+}
+.digimon-card.selected {
+  transform: scale(1.1);
+  border: 3px solid gold;
+  box-shadow: 0 0 15px gold;
+}
+
+.confirm-button {
+  margin-top: 30px;
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  background: linear-gradient(135deg, #ffb703, #fb8500);
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.confirm-button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #ffb703, #ff6600);
+}

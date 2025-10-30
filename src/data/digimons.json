@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Agumon",
+    "image": "/digimons/agumon.png",
+    "type": "fogo",
+    "hp": 80,
+    "attack": 25,
+    "defense": 15
+  },
+  {
+    "id": 2,
+    "name": "Gabumon",
+    "image": "/digimons/gabumon.png",
+    "type": "água",
+    "hp": 75,
+    "attack": 20,
+    "defense": 18
+  },
+  {
+    "id": 3,
+    "name": "Tentomon",
+    "image": "/digimons/tentomon.png",
+    "type": "planta",
+    "hp": 70,
+    "attack": 22,
+    "defense": 20
+  }
+]
