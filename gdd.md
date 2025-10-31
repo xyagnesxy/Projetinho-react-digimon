@@ -144,11 +144,3 @@ Gerenciamento de batalha: poderá ser feito por um componente dedicado (BattleMa
 
 GameContext ou DigimonContext podem futuramente armazenar progresso, inventário e status persistentes do jogador.
 
-
-```mermaid
-flowchart TD
-    A["MenuScreen"] --> B["SelectionScreen"]
-    B --> C["BattleScreen"]
-    C --> D["BattleScreen"]
-    D --> E["TelaFimDeJogo"]
-```
