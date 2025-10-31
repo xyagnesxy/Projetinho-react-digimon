@@ -1,4 +1,4 @@
-.selection-screen {
+/*.selection-screen {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -7,7 +7,7 @@
   background: linear-gradient(180deg, #0a0a0a 0%, #1a1a1a 100%);
   color: white;
   font-family: 'Arial', sans-serif;
-}
+}*/
 
 .digimon-grid {
   display: grid;
@@ -49,17 +49,24 @@
 }
 
 .selected-preview {
-  margin-top: 32px;
+  display: inline-block;      /* não ocupa toda a largura */
+  position: absolute;         /* tira do fluxo vertical */
+  right: 20px;                /* distância da borda direita */
+  bottom: 80px;               /* acima do botão */
+  width: 150px;
   text-align: center;
+  background: rgba(255,255,255,0.1);
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 8px;
 }
 
 .selected-preview img {
-  width: 200px;
-  height: 200px;
-  object-fit: contain;
-  border-radius: 12px;
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.25);
+  width: 100%;
+  height: auto;
+  display: block;
 }
+
 .digimon-card.selected {
   transform: scale(1.1);
   border: 3px solid gold;

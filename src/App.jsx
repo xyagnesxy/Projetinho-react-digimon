@@ -1,9 +1,14 @@
-import { useState } from 'react'
+import { use, useState } from 'react'
 import './App.css'
-import SelectionScreen from './screens/SelectionScreen'
+import {MenuScreen} from './screens/MenuScreen'
+import {BattleScreen} from './screens/BattleScreen'
+import {SelectionScreen} from './screens/SelectionScreen'
+import { useGame } from './context/GameContext'
 
 function App() {
-  const [selectedDigimon, setSelectedDigimon] = useState(null)
+
+  const {currentScreen} = useGame()
+
 
   const handleSelect = (digimon) => {
     setSelectedDigimon(digimon)
@@ -11,22 +16,18 @@ function App() {
   }
 
 
-  const startGame = () => {
-    alert("começou o jogo")
+  switch(currentScreen){
+    case "menu":
+      return(<MenuScreen/>);
+    case "selection":
+      return(<SelectionScreen/>);
+    case "battle":
+      return(<BattleScreen/>);
+    default:
+      return(<MenuScreen/>)
+        
   }
 
-  return (
-
-            <div className="app-container">
-              {!selectedDigimon ? (
-                <SelectionScreen/>
-              ) : (<div>
-                <h1>seu digimon: {selectedDigimon.name}</h1>
-              </div>)}
-        
-            </div>
-
-  )
 }
 
 export default App

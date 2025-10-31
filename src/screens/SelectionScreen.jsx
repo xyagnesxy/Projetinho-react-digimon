@@ -2,27 +2,26 @@ import React, { useState } from "react";
 import digimons from "../data/digimons.json";
 import "./SelectionScreen.css";
 import  {useDigimon} from "../context/DigimonContext";
+import GameLayout from "../components/GameLayout";
+import {useGame} from "../context/GameContext";
 
-export default function SelectionScreen() {
+export const SelectionScreen=()=> {
 
     const [selectedDigimon, setSelectedDigimon] = useState(null);
-    const {selectDigimon1} = useDigimon();
+    const {selectDigimon} = useDigimon();
+    const {goToBattle} = useGame();
 
 
-  const handleSelect = () => {
-    if(selectedDigimon){
-        selectDigimon1(selectedDigimon)
-        console.log(`digimon escolhido: ${selectedDigimon.name}`)
-    }
-    else{
-        alert("Escollha um digimon antes de confirmar")
-    }
+  const handleSelect = (digimon) => {
+    selectDigimon(digimon)
+    goToBattle()
     
   };
 
 
 
   return (
+    <GameLayout>
     <div className="selection-screen">
       <h1>Selecione seu Digimon</h1>
 
@@ -48,9 +47,10 @@ export default function SelectionScreen() {
         </div>
       )}
 
-      <button className="confirm-button" onClick={handleSelect}>
+      <button className="confirm-button" onClick={()=>handleSelect(selectedDigimon)}>
         Confirmar
       </button>
     </div>
+    </GameLayout>
   );
 }

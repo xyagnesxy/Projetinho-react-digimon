@@ -1,0 +1,37 @@
+[
+  {
+    "id": "pepper_breath",
+    "name": "Pepper Breath",
+    "power": 20,
+    "type": "fire",
+    "range": 1
+  },
+  {
+    "id": "claw_swipe",
+    "name": "Claw Swipe",
+    "power": 15,
+    "type": "normal",
+    "range": 1
+  },
+  {
+    "id": "blue_blaster",
+    "name": "Blue Blaster",
+    "power": 18,
+    "type": "ice",
+    "range": 2
+  },
+  {
+    "id": "super_shocker",
+    "name": "Super Shocker",
+    "power": 16,
+    "type": "electric",
+    "range": 1
+  },
+  {
+    "id": "spiral_twister",
+    "name": "Spiral Twister",
+    "power": 17,
+    "type": "wind",
+    "range": 2
+  }
+]

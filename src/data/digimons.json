@@ -2,28 +2,49 @@
   {
     "id": 1,
     "name": "Agumon",
-    "image": "/digimons/agumon.png",
-    "type": "fogo",
-    "hp": 80,
-    "attack": 25,
-    "defense": 15
+    "image": "/src/assets/digimons/agumon.png",
+    "level": 1,
+    "type": "fire",
+    "hp": 100,
+    "atk": 25,
+    "def": 15,
+    "speed": 10,
+    "attacks": ["pepper_breath", "claw_swipe"]
   },
   {
     "id": 2,
     "name": "Gabumon",
-    "image": "/digimons/gabumon.png",
-    "type": "água",
-    "hp": 75,
-    "attack": 20,
-    "defense": 18
+    "image": "/src/assets/digimons/gabumon.png",
+    "level": 1,
+    "type": "ice",
+    "hp": 95,
+    "atk": 22,
+    "def": 18,
+    "speed": 9,
+    "attacks": ["blue_blaster"]
   },
   {
     "id": 3,
     "name": "Tentomon",
-    "image": "/digimons/tentomon.png",
-    "type": "planta",
-    "hp": 70,
-    "attack": 22,
-    "defense": 20
+    "image": "/src/assets/digimons/tentomon.png",
+    "level": 1,
+    "type": "electric",
+    "hp": 90,
+    "atk": 20,
+    "def": 14,
+    "speed": 12,
+    "attacks": ["super_shocker"]
+  },
+  {
+    "id": 4,
+    "name": "Piyomon",
+    "image": "/src/assets/digimons/piyomon.png",
+    "level": 1,
+    "type": "wind",
+    "hp": 85,
+    "atk": 21,
+    "def": 13,
+    "speed": 13,
+    "attacks": ["spiral_twister"]
   }
 ]
