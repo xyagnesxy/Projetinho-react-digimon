@@ -6,6 +6,7 @@ import GameLayout from '../components/GameLayout'
 
 export const MenuScreen = () => {
     const {goToSelection} = useGame()
+    
   return (
     <GameLayout>
           <div className="menu-screen">
@@ -14,6 +15,7 @@ export const MenuScreen = () => {
             <div className='menu-buttons'>
                 <MenuButton text='Começar' onClick={()=>goToSelection()}/>
             </div>
+
             
              
         

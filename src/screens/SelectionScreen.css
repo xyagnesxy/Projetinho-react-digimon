@@ -53,7 +53,8 @@
   position: absolute;         /* tira do fluxo vertical */
   right: 20px;                /* distância da borda direita */
   bottom: 80px;               /* acima do botão */
-  width: 150px;
+  width: 400px;
+  height: 500px;
   text-align: center;
   background: rgba(255,255,255,0.1);
   border: 1px solid #333;
@@ -65,6 +66,7 @@
   width: 100%;
   height: auto;
   display: block;
+  
 }
 
 .digimon-card.selected {
