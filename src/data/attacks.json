@@ -4,34 +4,39 @@
     "name": "Pepper Breath",
     "power": 20,
     "type": "fire",
-    "range": 1
+    "range": 1,
+    "effect": "fire_burst"
   },
   {
     "id": "claw_swipe",
     "name": "Claw Swipe",
     "power": 15,
     "type": "normal",
-    "range": 1
+    "range": 1,
+    "effect": "physical_hit"
   },
   {
     "id": "blue_blaster",
     "name": "Blue Blaster",
     "power": 18,
     "type": "ice",
-    "range": 2
+    "range": 2,
+    "effect": "water_splash"
   },
   {
     "id": "super_shocker",
     "name": "Super Shocker",
     "power": 16,
     "type": "electric",
-    "range": 1
+    "range": 1,
+    "effect": "water_splash"
   },
   {
     "id": "spiral_twister",
     "name": "Spiral Twister",
     "power": 17,
     "type": "wind",
-    "range": 2
+    "range": 2,
+    "effect": "water_splash"
   }
 ]

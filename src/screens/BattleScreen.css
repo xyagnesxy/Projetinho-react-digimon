@@ -42,14 +42,34 @@
 
 /* Barra de HP */
 .hp-bar {
+  position: relative;
+  width: 150px;
+  height: 20px;
   margin-top: 8px;
   padding: 4px 8px;
   background-color: #222;
-  border-radius: 4px;
+  border: 2px solid #000;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-top: 6px;
   color: #fff;
   font-size: 14px;
 }
-
+.hp-bar-fill {
+  height: 100%;
+  transition: width 0.4s ease, background-color 0.4s ease;
+}
+.hp-text {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+  line-height: 20px;
+  pointer-events: none;
+}
 /* Menu de ações */
 .battle-menu {
   position: absolute;

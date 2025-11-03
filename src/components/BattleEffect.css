@@ -1,0 +1,46 @@
+.attack-effect {
+  position: absolute;
+  pointer-events: none;
+  width: 200px;
+  height: 200px;
+  opacity: 0;
+  animation: fadeInOut 1s ease;
+  border-radius: 50%;
+  overflow: hidden;
+  z-index: 10;
+  mix-blend-mode: screen;
+}
+
+/* Tipos de efeito */
+.attack-effect.fire_burst {
+  background: radial-gradient(circle, orange 20%, red 80%);
+  box-shadow: 0 0 50px 10px red;
+}
+
+.attack-effect.water_splash {
+  background: radial-gradient(circle, lightblue 20%, blue 80%);
+  box-shadow: 0 0 50px 10px cyan;
+}
+
+.attack-effect.physical_hit {
+  background: radial-gradient(circle, gray 20%, black 80%);
+  box-shadow: 0 0 40px 8px white;
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; transform: scale(0.6); }
+  30% { opacity: 1; transform: scale(1.1); }
+  70% { opacity: 1; transform: scale(1.1); }
+  100% { opacity: 0; transform: scale(0.8); }
+}
+
+/* Posições dos efeitos */
+.attack-effect.enemy {
+  top: 10%;
+  right: 5%;
+}
+
+.attack-effect.player {
+  bottom: 20%;
+  left: 5%;
+}
