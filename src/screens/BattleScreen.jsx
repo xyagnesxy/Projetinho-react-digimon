@@ -7,8 +7,10 @@ import "./BattleScreen.css";
 import GameLayout from "../components/GameLayout";
 
 export const BattleScreen = () => {
-  const { digimon1 } = useDigimon();
+  const { digimon1, removeDigimon } = useDigimon();
   const { goToMenu } = useGame();
+  const[hoveredAttack, setHoveredAtk] = useState(null);
+
 
   // Se nenhum digimon foi selecionado, volta ao menu
   if (!digimon1) {
@@ -70,10 +72,12 @@ export const BattleScreen = () => {
     if (playerHP <= 0) {
       console.log("Você perdeu!");
       alert("Você perdeu!");
+      removeDigimon();
       goToMenu();
     } else if (enemyHP <= 0) {
       console.log("Você venceu!");
       alert("Você venceu!");
+      removeDigimon();
       goToMenu();
     }
   }, [playerHP, enemyHP]);
@@ -90,27 +94,39 @@ export const BattleScreen = () => {
         <img src={playerDigimon.image} alt={playerDigimon.name} className="player-img" />
         <div className="hp-bar">HP: {playerHP}/{playerDigimon.hp}</div>
 
+      </div>
         {menuOpen && isPlayerTurn && (
+          
           <div className="battle-menu">
             {!attackMenuOpen ? (
-              <>
+              <div className="battle-menu-actions">
                 <button onClick={() => setAttackMenuOpen(true)}>Atacar</button>
                 <button disabled>Itens</button>
                 <button disabled>Mover</button>
-              </>
+              </div>
             ) : (
-              <>
+              <div className="battle-menu-attacks">
                 {playerAttacks.map((atk, index) => (
-                  <button key={index} onClick={() => handlePlayerAttack(atk)}>
+                  <button key={index} onClick={() => handlePlayerAttack(atk)} onMouseEnter={()=>setHoveredAtk(atk)} onMouseLeave={()=>setHoveredAtk(null)}>
                     {atk.name}
                   </button>
                 ))}
                 <button onClick={() => setAttackMenuOpen(false)}>Voltar</button>
-              </>
+              </div>
             )}
-          </div>
-        )}
-      </div>
+          </div> 
+          )}
+
+          {
+            hoveredAttack && (
+            <div className="attack-description">
+              <p><strong>{hoveredAttack.name}</strong></p>
+              <p>Power: {hoveredAttack.power}</p>
+              <p>Type: {hoveredAttack.type}</p>
+              <p>Range: {hoveredAttack.range}</p>
+             </div>  
+            )
+          }
     </div>
     </GameLayout>
   );

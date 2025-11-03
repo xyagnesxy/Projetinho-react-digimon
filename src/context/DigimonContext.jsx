@@ -7,14 +7,20 @@ export const DigimonProvider = ({ children }) => {
   const [digimon2, setDigimon2] = useState(null); // segundo Digimon
 
   const selectDigimon = (digimon) => {
+    
     if(!digimon1){
       setDigimon1(digimon)
+  
     }
     else{
       setDigimon2(digimon)
     }
   };
-
+  const removeDigimon= () =>{  
+    setDigimon1(null)
+    setDigimon2(null)
+    
+  }
 
 
   return (
@@ -22,7 +28,8 @@ export const DigimonProvider = ({ children }) => {
       value={{
         digimon1,
         digimon2,
-        selectDigimon
+        selectDigimon,
+        removeDigimon
       }}
     >
       {children}

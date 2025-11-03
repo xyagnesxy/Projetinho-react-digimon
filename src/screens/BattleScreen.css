@@ -22,7 +22,7 @@
 /* Lado do jogador (parte inferior) */
 .player-side {
   position: absolute;
-  bottom: 10%;
+  bottom: 20%;
   left: 5%;
   display: flex;
   flex-direction: column;
@@ -53,29 +53,61 @@
 /* Menu de ações */
 .battle-menu {
   position: absolute;
-  bottom: 5%;
-  left: 5%;
+  bottom: 0;
+  width: 600px;
+  height: 100px;
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   gap: 6px;
+  border: #000 solid 10px;
+  
 }
 
 .battle-menu button {
-  background-color: #fff;
-  border: 1px solid #000;
-  border-radius: 6px;
-  padding: 6px 12px;
+  background: linear-gradient(180deg, #f0f0f0 0%, #dcdcdc 100%);
+  border: 2px solid #333;
+  border-radius: 8px;
+  padding: 35px 0;
+  width: 140px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #111;
+  text-shadow: 1px 1px 0 #fff;
+  box-shadow: 0 3px 0 #888, inset 0 1px 0 #fff;
   cursor: pointer;
+  transition: all 0.15s ease-in-out;
 }
 
 .battle-menu button:hover {
-  background-color: #ddd;
+  background: linear-gradient(180deg, #fff 0%, #e6e6e6 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 0 #666, inset 0 1px 0 #fff;
 }
 
-.attackMenu{
-
+.battle-menu button active{
+  transform: translateY(2px);
+  box-shadow: 0 1px 0 #666 inset;
+  background: linear-gradient(180deg, #e0e0e0 0%, #c8c8c8 100%);
+}
+.battle-menu-attacks{
+  display: flex;
+  gap: 15px;
 }
 
-.actionMenu{
-  
+.battle-menu-actions{
+  display: flex;
+  gap: 15px;  
+}
+.attack-description{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 600px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  border: #000 solid 10px;
 }
