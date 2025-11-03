@@ -60,13 +60,14 @@
   align-items: center;
   justify-content: center;
   gap: 6px;
-  border: #000 solid 10px;
+  padding: 10px;
+  
   
 }
 
 .battle-menu button {
   background: linear-gradient(180deg, #f0f0f0 0%, #dcdcdc 100%);
-  border: 2px solid #333;
+  
   border-radius: 8px;
   padding: 35px 0;
   width: 140px;
@@ -110,4 +111,31 @@
   justify-content: center;
   gap: 6px;
   border: #000 solid 10px;
+  bottom: 10px;
+  
+}
+.fire{
+  color: rgb(237, 167, 15);
+  border-color: rgb(237, 167, 15);
+  border-width: 5px;
+}
+.ice{
+  color: rgb(110, 223, 246);
+  border-color: rgb(110, 223, 246);
+  border-width: 5px;
+}
+.eletric{
+  color: rgb(234, 255, 12);
+  border-color: rgb(234, 255, 12);
+  border-width: 5px;
+}
+.wind{
+  color: rgb(42, 207, 91);
+  border-color: rgb(42, 207, 91);
+  border-width: 5px;
+}
+.normal{
+  color: rgb(176, 191, 191);
+  border-color: rgb(176, 191, 191);
+  border-width: 5px;
 }

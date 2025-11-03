@@ -107,7 +107,7 @@ export const BattleScreen = () => {
             ) : (
               <div className="battle-menu-attacks">
                 {playerAttacks.map((atk, index) => (
-                  <button key={index} onClick={() => handlePlayerAttack(atk)} onMouseEnter={()=>setHoveredAtk(atk)} onMouseLeave={()=>setHoveredAtk(null)}>
+                  <button className={atk.type} key={index} onClick={() => handlePlayerAttack(atk)} onMouseEnter={()=>setHoveredAtk(atk)} onMouseLeave={()=>setHoveredAtk(null)}>
                     {atk.name}
                   </button>
                 ))}
@@ -119,11 +119,12 @@ export const BattleScreen = () => {
 
           {
             hoveredAttack && (
-            <div className="attack-description">
+            <div className={`attack-description ${hoveredAttack.type}`}>
               <p><strong>{hoveredAttack.name}</strong></p>
               <p>Power: {hoveredAttack.power}</p>
-              <p>Type: {hoveredAttack.type}</p>
+              <p className={hoveredAttack.type}>Type: {hoveredAttack.type}</p>
               <p>Range: {hoveredAttack.range}</p>
+              
              </div>  
             )
           }
