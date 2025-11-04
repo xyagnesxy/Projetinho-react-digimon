@@ -10,11 +10,6 @@ function App() {
   const {currentScreen} = useGame()
 
 
-  const handleSelect = (digimon) => {
-    setSelectedDigimon(digimon)
-    alert(`vc escollheu o ${digimon.name}`)
-  }
-
 
   switch(currentScreen){
     case "menu":

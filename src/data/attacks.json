@@ -38,5 +38,160 @@
     "type": "wind",
     "range": 2,
     "effect": "water_splash"
+  },
+  [
+  {
+    "id": "poison_ivies",
+    "name": "Poison Ivies",
+    "power": 18,
+    "type": "earth",
+    "range": 1,
+    "effect": "poison_vines"
+  },
+  {
+    "id": "root_bind",
+    "name": "Root Bind",
+    "power": 15,
+    "type": "earth",
+    "range": 1,
+    "effect": "ground_burst"
+  },
+  {
+    "id": "marching_fishes",
+    "name": "Marching Fishes",
+    "power": 17,
+    "type": "water",
+    "range": 2,
+    "effect": "water_splash"
+  },
+  {
+    "id": "boom_bubble",
+    "name": "Boom Bubble",
+    "power": 19,
+    "type": "wind",
+    "range": 2,
+    "effect": "wind_wave"
+  },
+  {
+    "id": "puppy_howl",
+    "name": "Puppy Howl",
+    "power": 14,
+    "type": "light",
+    "range": 1,
+    "effect": "light_flash"
+  },
+  {
+    "id": "holy_flash",
+    "name": "Holy Flash",
+    "power": 20,
+    "type": "light",
+    "range": 2,
+    "effect": "holy_burst"
+  },
+  {
+    "id": "evil_chain",
+    "name": "Evil Chain",
+    "power": 17,
+    "type": "dark",
+    "range": 1,
+    "effect": "dark_bind"
+  },
+  {
+    "id": "bat_attack",
+    "name": "Bat Attack",
+    "power": 16,
+    "type": "dark",
+    "range": 2,
+    "effect": "shadow_swarm"
+  },
+  {
+    "id": "super_thunder_strike",
+    "name": "Super Thunder Strike",
+    "power": 18,
+    "type": "electric",
+    "range": 2,
+    "effect": "electric_burst"
+  },
+  {
+    "id": "rock_fist",
+    "name": "Rock Fist",
+    "power": 17,
+    "type": "earth",
+    "range": 1,
+    "effect": "rock_impact"
+  },
+  {
+    "id": "stone_edge",
+    "name": "Stone Edge",
+    "power": 19,
+    "type": "earth",
+    "range": 2,
+    "effect": "stone_shards"
+  },
+  {
+    "id": "electric_shock",
+    "name": "Electric Shock",
+    "power": 17,
+    "type": "electric",
+    "range": 1,
+    "effect": "spark_burst"
+  },
+  {
+    "id": "electric_stun_blast",
+    "name": "Electric Stun Blast",
+    "power": 18,
+    "type": "electric",
+    "range": 1,
+    "effect": "stun_flash"
+  },
+  {
+    "id": "darkness_gear",
+    "name": "Darkness Gear",
+    "power": 20,
+    "type": "dark",
+    "range": 1,
+    "effect": "gear_spin"
+  },
+  {
+    "id": "stamen_rope",
+    "name": "Stamen Rope",
+    "power": 16,
+    "type": "earth",
+    "range": 1,
+    "effect": "vine_whip"
+  },
+  {
+    "id": "trash_throw",
+    "name": "Trash Throw",
+    "power": 14,
+    "type": "dark",
+    "range": 1,
+    "effect": "debris_hit"
+  },
+  {
+    "id": "spiral_edge",
+    "name": "Spiral Edge",
+    "power": 18,
+    "type": "water",
+    "range": 1,
+    "effect": "aqua_slash"
+  },
+  {
+    "id": "acid_bubble",
+    "name": "Acid Bubble",
+    "power": 16,
+    "type": "water",
+    "range": 1,
+    "effect": "acid_splash"
+  },
+  {
+    "id": "spore_cloud",
+    "name": "Spore Cloud",
+    "power": 17,
+    "type": "earth",
+    "range": 2,
+    "effect": "toxic_fog"
   }
+]
+
 ]

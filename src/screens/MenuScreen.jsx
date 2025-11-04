@@ -5,7 +5,8 @@ import {useGame} from '../context/GameContext'
 import GameLayout from '../components/GameLayout'
 
 export const MenuScreen = () => {
-    const {goToSelection} = useGame()
+  
+    const {goToSelectionScreen} = useGame()
     
   return (
     <GameLayout>
@@ -13,7 +14,7 @@ export const MenuScreen = () => {
             <h1 className='menu-title'>Projetinho Digimon</h1>
 
             <div className='menu-buttons'>
-                <MenuButton text='Começar' onClick={()=>goToSelection()}/>
+                <MenuButton text='Começar' onClick={()=>goToSelectionScreen()}/>
             </div>
 
             

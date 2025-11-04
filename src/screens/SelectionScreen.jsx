@@ -1,57 +1,22 @@
-import React, { useState } from "react";
+import React from "react";
 import digimons from "../data/digimons.json";
-import "./SelectionScreen.css";
-import  {useDigimon} from "../context/DigimonContext";
 import GameLayout from "../components/GameLayout";
-import {useGame} from "../context/GameContext";
+import { useDigimon } from "../context/DigimonContext";
+import { useGame } from "../context/GameContext";
+import SelectionMenu from "../components/SelectionMenu";
 
-export const SelectionScreen=()=> {
-    
-
-    const [selectedDigimon, setSelectedDigimon] = useState(null);
-    const {selectDigimon} = useDigimon();
-    const {goToBattle} = useGame();
-
-
+export const SelectionScreen = () => {
+  const { selectDigimon } = useDigimon();
+  const { goToBattleScreen } = useGame();
+  // futuramente, mandar como props, apenas parte de "digimons"
   const handleSelect = (digimon) => {
-    selectDigimon(digimon)
-    goToBattle()
-    
+    selectDigimon(digimon);
+    goToBattleScreen();
   };
-
-
 
   return (
     <GameLayout>
-    <div className="selection-screen">
-      <h1>Selecione seu Digimon</h1>
-
-      <div className="digimon-grid">
-        {digimons.map((digimon) => (
-          <div
-            key={digimon.id}
-            className={`digimon-card ${
-              selectedDigimon?.id === digimon.id ? "selected" : ""
-            }`}
-            onClick={() => setSelectedDigimon(digimon)}
-          >
-            <img src={digimon.image} alt={digimon.name} />
-            <div className="digimon-name">{digimon.name}</div>
-          </div>
-        ))}
-      </div>
-
-      {selectedDigimon && (
-        <div className="selected-preview">
-          <h2>{selectedDigimon.name}</h2>
-          <img src={selectedDigimon.image} alt={selectedDigimon.name} />
-        </div>
-      )}
-
-      <button className="confirm-button" onClick={()=>handleSelect(selectedDigimon)}>
-        Confirmar
-      </button>
-    </div>
+      <SelectionMenu digimons={digimons} onSelect={handleSelect} />
     </GameLayout>
   );
-}
+};

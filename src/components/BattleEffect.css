@@ -12,19 +12,75 @@
 }
 
 /* Tipos de efeito */
+/* 🔥 Fogo */
 .attack-effect.fire_burst {
-  background: radial-gradient(circle, orange 20%, red 80%);
-  box-shadow: 0 0 50px 10px red;
+  background: radial-gradient(circle, orange 15%, red 70%, darkred 100%);
+  box-shadow: 0 0 60px 15px red;
 }
 
+/* 💧 Água */
 .attack-effect.water_splash {
-  background: radial-gradient(circle, lightblue 20%, blue 80%);
-  box-shadow: 0 0 50px 10px cyan;
+  background: radial-gradient(circle, #aaf 20%, #00f 70%, #004 100%);
+  box-shadow: 0 0 60px 15px cyan;
 }
 
-.attack-effect.physical_hit {
-  background: radial-gradient(circle, gray 20%, black 80%);
-  box-shadow: 0 0 40px 8px white;
+/* ⚡ Elétrico */
+.attack-effect.electric_burst,
+.attack-effect.spark_burst,
+.attack-effect.stun_flash {
+  background: radial-gradient(circle, yellow 15%, gold 60%, orange 90%);
+  box-shadow: 0 0 70px 20px yellow;
+}
+
+/* 🌿 Terra / Planta */
+.attack-effect.poison_vines,
+.attack-effect.ground_burst,
+.attack-effect.vine_whip,
+.attack-effect.toxic_fog {
+  background: radial-gradient(circle, #4f8 10%, #080 70%, #030 100%);
+  box-shadow: 0 0 50px 10px limegreen;
+}
+
+/* 🌪️ Vento */
+.attack-effect.wind_wave {
+  background: radial-gradient(circle, #ccf 20%, #88f 60%, #44a 100%);
+  box-shadow: 0 0 60px 10px #99f;
+}
+
+/* 💎 Gelo */
+.attack-effect.ice_blast {
+  background: radial-gradient(circle, #ddf 10%, #9cf 60%, #36f 100%);
+  box-shadow: 0 0 50px 15px #9cf;
+}
+
+/* 🌑 Trevas */
+.attack-effect.dark_bind,
+.attack-effect.shadow_swarm,
+.attack-effect.gear_spin,
+.attack-effect.debris_hit {
+  background: radial-gradient(circle, #222 10%, #000 80%);
+  box-shadow: 0 0 70px 20px purple;
+}
+
+/* ✨ Luz */
+.attack-effect.light_flash,
+.attack-effect.holy_burst {
+  background: radial-gradient(circle, #fff 20%, #ffd 60%, #ffb 100%);
+  box-shadow: 0 0 80px 25px gold;
+}
+
+/* 🪨 Pedra / Terra sólida */
+.attack-effect.rock_impact,
+.attack-effect.stone_shards {
+  background: radial-gradient(circle, #999 20%, #555 70%, #222 100%);
+  box-shadow: 0 0 50px 10px #bbb;
+}
+
+/* 💧 Água ácida */
+.attack-effect.acid_splash,
+.attack-effect.aqua_slash {
+  background: radial-gradient(circle, #8ff 10%, #0bb 60%, #066 100%);
+  box-shadow: 0 0 60px 15px #0ff;
 }
 
 @keyframes fadeInOut {

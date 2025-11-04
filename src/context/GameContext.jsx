@@ -1,17 +1,23 @@
-import { createContext, useContext, useState } from "react";
+import { createContext, use, useContext, useState } from "react";
 
 const GameContext = createContext();
 
 export function GameProvider({ children }) {
   const [currentScreen, setCurrentScreen] = useState("menu"); // tela inicial
+  const [level, setLevel] = useState(0)
 
-  const goToSelection = () => setCurrentScreen("selection");
-  const goToBattle = () => setCurrentScreen("battle");
-  const goToMenu = () => setCurrentScreen("menu");
+  const goToSelectionScreen = () => setCurrentScreen("selection");
+  const goToBattleScreen = () => {
+    setCurrentScreen("battle");
+    setLevel(level+1)
+  }
+  const goToMenuScreen = () => setCurrentScreen("menu");
+  
+  
 
   return (
     <GameContext.Provider
-      value={{ currentScreen, goToSelection, goToBattle, goToMenu }}
+      value={{ currentScreen, goToSelectionScreen, goToBattleScreen, goToMenuScreen, level }}
     >
       {children}
     </GameContext.Provider>
