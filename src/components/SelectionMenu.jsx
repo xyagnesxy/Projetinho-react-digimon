@@ -1,13 +1,15 @@
 import React, { useEffect, useState } from "react";
 import { getRandomSubset } from "../utils/random";
 import "../screens/SelectionScreen.css"; // reutiliza seu CSS
+import { useGame } from "../context/GameContext";
+
 
 export default function SelectionMenu({ digimons, onSelect }) {
   const [selectedDigimon, setSelectedDigimon] = useState(null);
   const [displayedDigimons, setDisplayedDigimons] = useState([]);
-
+  const {level} = useGame()
   useEffect(() => {
-    const randomSet = getRandomSubset(digimons, 6); // 6 digimons aleatórios
+    const randomSet = getRandomSubset(digimons, 6, level); // 6 digimons aleatórios
     setDisplayedDigimons(randomSet);
   }, [digimons]);
 

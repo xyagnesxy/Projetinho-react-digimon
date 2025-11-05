@@ -39,7 +39,6 @@
     "range": 2,
     "effect": "water_splash"
   },
-  [
   {
     "id": "poison_ivies",
     "name": "Poison Ivies",
@@ -191,7 +190,30 @@
     "type": "earth",
     "range": 2,
     "effect": "toxic_fog"
-  }
-]
+  },
+  
+  { "id": "nova_blast", "name": "nova_blast", "power": 32, "type": "fire", "range": 2, "effect": "fire_explosion" },
+  { "id": "mega_flame", "name": "mega_flame", "power": 30, "type": "fire", "range": 2, "effect": "fire_burst" },
+  { "id": "icy_breath", "name": "icy_breath", "power": 24, "type": "ice", "range": 2, "effect": "freeze_blow" },
+  { "id": "ice_hammer", "name": "ice_hammer", "power": 22, "type": "ice", "range": 1, "effect": "crystal_smash" },
+  { "id": "wolf_fang_fist", "name": "wolf_fang_fist", "power": 26, "type": "normal", "range": 1, "effect": "fang_strike" },
+
+  { "id": "hydro_cannon", "name": "hydro_cannon", "power": 28, "type": "water", "range": 2, "effect": "water_blast" },
+  { "id": "tidal_crush", "name": "tidal_crush", "power": 24, "type": "water", "range": 1, "effect": "wave_slam" },
+  { "id": "electric_fury", "name": "electric_fury", "power": 27, "type": "electric", "range": 1, "effect": "lightning_strike" },
+  { "id": "storm_cutter", "name": "storm_cutter", "power": 25, "type": "wind", "range": 2, "effect": "wind_scythe" },
+
+  { "id": "poison_spore", "name": "poison_spore", "power": 21, "type": "plant", "range": 2, "effect": "toxic_cloud" },
+  { "id": "thorn_whip", "name": "thorn_whip", "power": 19, "type": "plant", "range": 1, "effect": "vine_strike" },
+  { "id": "holy_blast", "name": "holy_blast", "power": 26, "type": "light", "range": 2, "effect": "divine_flash" },
+  { "id": "shadow_claw", "name": "shadow_claw", "power": 23, "type": "dark", "range": 1, "effect": "dark_slash" },
+  { "id": "phantom_scream", "name": "phantom_scream", "power": 22, "type": "dark", "range": 2, "effect": "fear_wave" },
+
+  { "id": "rock_breaker", "name": "rock_breaker", "power": 24, "type": "earth", "range": 1, "effect": "stone_impact" },
+  { "id": "drill_drive", "name": "drill_drive", "power": 25, "type": "earth", "range": 1, "effect": "piercing_charge" },
+  { "id": "metal_cannon", "name": "metal_cannon", "power": 28, "type": "metal", "range": 2, "effect": "bullet_burst" },
+  { "id": "gear_smash", "name": "gear_smash", "power": 21, "type": "metal", "range": 1, "effect": "metal_strike" }
+
 
 ]
+

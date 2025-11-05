@@ -10,7 +10,7 @@ import BattleEffect from "../components/BattleEffect";
 
 export const BattleScreen = () => {
   const { digimon1, removeDigimon } = useDigimon();
-  const { goToMenu } = useGame();
+  const { goToMenuScreen, level, gotoBattleScreen } = useGame();
   const[hoveredAttack, setHoveredAtk] = useState(null);
   const[currentEffect, setCurrentEffect] = useState(null);
   
@@ -18,7 +18,7 @@ export const BattleScreen = () => {
 
   // Se nenhum digimon foi selecionado, volta ao menu
   if (!digimon1) {
-    goToMenu();
+    goToMenuScreen();
     return null;
   }
 
@@ -91,13 +91,14 @@ export const BattleScreen = () => {
       console.log("Você perdeu!");
       setTimeout(()=>{alert("Você perdeu!")
         removeDigimon();
-        goToMenu();
+        goToMenuScreen();
       }, 1000)
     } else if (enemyHP <= 0) {
+
       console.log("Você venceu!");
       setTimeout(()=>{alert("Você venceu!")
         removeDigimon();
-        goToMenu();
+        goToMenuScreen();
       }, 1000)
     }
   }, [playerHP, enemyHP]);
