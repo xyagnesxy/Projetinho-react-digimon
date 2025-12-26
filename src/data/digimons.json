@@ -16,15 +16,15 @@
     "evolutions": [
       {
         "to": "Greymon",
-        "chance": 0.5
+        "chance": 0.7
       },
       {
         "to": "Tyranomon",
-        "chance": 0.3
+        "chance": 0.2
       },
       {
         "to": "Meramon",
-        "chance": 0.2
+        "chance": 0.1
       }
     ]
   },
@@ -44,11 +44,11 @@
     "evolutions": [
       {
         "to": "Garurumon",
-        "chance": 0.6
+        "chance": 0.8
       },
       {
         "to": "Yukidarumon",
-        "chance": 0.4
+        "chance": 0.2
       }
     ]
   },
@@ -72,7 +72,11 @@
       },
       {
         "to": "Kuwagamon",
-        "chance": 0.3
+        "chance": 0.2
+      },
+      {
+        "to": "Dokugumon",
+        "chance": 0.1
       }
     ]
   },
@@ -92,11 +96,15 @@
     "evolutions": [
       {
         "to": "Birdramon",
-        "chance": 0.6
+        "chance": 0.7
       },
       {
         "to": "Airdramon",
-        "chance": 0.4
+        "chance": 0.2
+      },
+      {
+        "to": "Cockatrimon",
+        "chance": 0.1
       }
     ]
   },
@@ -117,15 +125,15 @@
     "evolutions": [
       {
         "to": "Togemon",
-        "chance": 0.5
+        "chance": 0.7
       },
       {
         "to": "Woodmon",
-        "chance": 0.3
+        "chance": 0.2
       },
       {
         "to": "Kiwimon",
-        "chance": 0.2
+        "chance": 0.1
       }
     ]
   },
@@ -145,15 +153,15 @@
     "evolutions": [
       {
         "to": "Ikkakumon",
-        "chance": 0.5
+        "chance": 0.7
+      },
+      {
+        "to": "Gesomon",
+        "chance": 0.2
       },
       {
         "to": "Seadramon",
-        "chance": 0.3
-      },
-      {
-        "to": "Whamon",
-        "chance": 0.2
+        "chance": 0.1
       }
     ]
   },
@@ -173,11 +181,15 @@
     "evolutions": [
       {
         "to": "Angemon",
-        "chance": 0.6
+        "chance": 0.7
       },
       {
         "to": "Unimon",
-        "chance": 0.4
+        "chance": 0.2
+      },
+      {
+        "to": "Devimon",
+        "chance": 0.1
       }
     ]
   },
@@ -198,11 +210,15 @@
     "evolutions": [
       {
         "to": "Tailmon",
-        "chance": 0.6
+        "chance": 0.7
       },
       {
         "to": "Nefertimon",
-        "chance": 0.4
+        "chance": 0.2
+      },
+      {
+        "to": "Wizarmon",
+        "chance": 0.1
       }
     ]
   },
@@ -223,15 +239,19 @@
     "evolutions": [
       {
         "to": "Devimon",
-        "chance": 0.5
+        "chance": 0.7
       },
       {
         "to": "Bakemon",
-        "chance": 0.3
+        "chance": 0.1
       },
       {
         "to": "Orgemon",
-        "chance": 0.2
+        "chance": 0.1
+      },
+      {
+        "to": "Devidramon",
+        "chance": 0.1
       }
     ]
   },
@@ -251,14 +271,10 @@
     "evolutions": [
       {
         "to": "Leomon",
-        "chance": 0.4
+        "chance": 0.7
       },
       {
         "to": "Centarumon",
-        "chance": 0.3
-      },
-      {
-        "to": "Golemon",
         "chance": 0.3
       }
     ]
@@ -284,7 +300,11 @@
       },
       {
         "to": "Monochromon",
-        "chance": 0.4
+        "chance": 0.2
+      },
+      {
+        "to": "Starmon",
+        "chance": 0.2
       }
     ]
   },
@@ -304,15 +324,15 @@
     "evolutions": [
       {
         "to": "Seadramon",
-        "chance": 0.5
+        "chance": 0.7
       },
       {
         "to": "Whamon",
-        "chance": 0.3
+        "chance": 0.2
       },
       {
-        "to": "Gesomon",
-        "chance": 0.2
+        "to": "Coelamon",
+        "chance": 0.1
       }
     ]
   },
@@ -360,11 +380,11 @@
     "evolutions": [
       {
         "to": "Guardromon",
-        "chance": 0.5
+        "chance": 0.6
       },
       {
         "to": "Clockmon",
-        "chance": 0.3
+        "chance": 0.2
       },
       {
         "to": "Tankmon",
@@ -388,11 +408,11 @@
     "evolutions": [
       {
         "to": "Vegimon",
-        "chance": 0.5
+        "chance": 0.6
       },
       {
         "to": "RedVegimon",
-        "chance": 0.3
+        "chance": 0.2
       },
       {
         "to": "Sunflowmon",
