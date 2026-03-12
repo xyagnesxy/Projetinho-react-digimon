@@ -24,4 +24,4 @@ dist-ssr
 *.sw?
 
 # imagens
-# src/assets/digimons/
+/public/backgrounds/
