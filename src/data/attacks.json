@@ -1,219 +1,338 @@
 [
   {
-    "id": "pepper_breath",
-    "name": "Pepper Breath",
+    "id": 0,
+    "name": "pepper-breath",
     "power": 20,
     "type": "fire",
     "range": 1,
     "effect": "fire_burst"
   },
   {
-    "id": "claw_swipe",
-    "name": "Claw Swipe",
+    "id": 1,
+    "name": "claw-swipe",
     "power": 15,
     "type": "normal",
     "range": 1,
     "effect": "physical_hit"
   },
   {
-    "id": "blue_blaster",
-    "name": "Blue Blaster",
+    "id": 2,
+    "name": "blue-blaster",
     "power": 18,
     "type": "ice",
     "range": 2,
     "effect": "water_splash"
   },
   {
-    "id": "super_shocker",
-    "name": "Super Shocker",
+    "id": 3,
+    "name": "super-shocker",
     "power": 16,
     "type": "electric",
     "range": 1,
     "effect": "water_splash"
   },
   {
-    "id": "spiral_twister",
-    "name": "Spiral Twister",
+    "id": 4,
+    "name": "spiral-twister",
     "power": 17,
     "type": "wind",
     "range": 2,
     "effect": "water_splash"
   },
   {
-    "id": "poison_ivies",
-    "name": "Poison Ivies",
+    "id": 5,
+    "name": "poison-ivies",
     "power": 18,
     "type": "earth",
     "range": 1,
     "effect": "poison_vines"
   },
   {
-    "id": "root_bind",
-    "name": "Root Bind",
+    "id": 6,
+    "name": "root-bind",
     "power": 15,
     "type": "earth",
     "range": 1,
     "effect": "ground_burst"
   },
   {
-    "id": "marching_fishes",
-    "name": "Marching Fishes",
+    "id": 7,
+    "name": "marching-fishes",
     "power": 17,
     "type": "water",
     "range": 2,
     "effect": "water_splash"
   },
   {
-    "id": "boom_bubble",
-    "name": "Boom Bubble",
+    "id": 8,
+    "name": "boom-bubble",
     "power": 19,
     "type": "wind",
     "range": 2,
     "effect": "wind_wave"
   },
   {
-    "id": "puppy_howl",
-    "name": "Puppy Howl",
+    "id": 9,
+    "name": "puppy-howl",
     "power": 14,
     "type": "light",
     "range": 1,
     "effect": "light_flash"
   },
   {
-    "id": "holy_flash",
-    "name": "Holy Flash",
+    "id": 10,
+    "name": "holy-flash",
     "power": 20,
     "type": "light",
     "range": 2,
     "effect": "holy_burst"
   },
   {
-    "id": "evil_chain",
-    "name": "Evil Chain",
+    "id": 11,
+    "name": "evil-chain",
     "power": 17,
     "type": "dark",
     "range": 1,
     "effect": "dark_bind"
   },
   {
-    "id": "bat_attack",
-    "name": "Bat Attack",
+    "id": 12,
+    "name": "bat-attack",
     "power": 16,
     "type": "dark",
     "range": 2,
     "effect": "shadow_swarm"
   },
   {
-    "id": "super_thunder_strike",
-    "name": "Super Thunder Strike",
+    "id": 13,
+    "name": "super-thunder-strike",
     "power": 18,
     "type": "electric",
     "range": 2,
     "effect": "electric_burst"
   },
   {
-    "id": "rock_fist",
-    "name": "Rock Fist",
+    "id": 14,
+    "name": "rock-fist",
     "power": 17,
     "type": "earth",
     "range": 1,
     "effect": "rock_impact"
   },
   {
-    "id": "stone_edge",
-    "name": "Stone Edge",
+    "id": 15,
+    "name": "stone-edge",
     "power": 19,
     "type": "earth",
     "range": 2,
     "effect": "stone_shards"
   },
   {
-    "id": "electric_shock",
-    "name": "Electric Shock",
+    "id": 16,
+    "name": "electric-shock",
     "power": 17,
     "type": "electric",
     "range": 1,
     "effect": "spark_burst"
   },
   {
-    "id": "electric_stun_blast",
-    "name": "Electric Stun Blast",
+    "id": 17,
+    "name": "electric-stun-blast",
     "power": 18,
     "type": "electric",
     "range": 1,
     "effect": "stun_flash"
   },
   {
-    "id": "darkness_gear",
-    "name": "Darkness Gear",
+    "id": 18,
+    "name": "darkness-gear",
     "power": 20,
     "type": "dark",
     "range": 1,
     "effect": "gear_spin"
   },
   {
-    "id": "stamen_rope",
-    "name": "Stamen Rope",
+    "id": 19,
+    "name": "stamen-rope",
     "power": 16,
     "type": "earth",
     "range": 1,
     "effect": "vine_whip"
   },
   {
-    "id": "trash_throw",
-    "name": "Trash Throw",
+    "id": 20,
+    "name": "trash-throw",
     "power": 14,
     "type": "dark",
     "range": 1,
     "effect": "debris_hit"
   },
   {
-    "id": "spiral_edge",
-    "name": "Spiral Edge",
+    "id": 21,
+    "name": "spiral-edge",
     "power": 18,
     "type": "water",
     "range": 1,
     "effect": "aqua_slash"
   },
   {
-    "id": "acid_bubble",
-    "name": "Acid Bubble",
+    "id": 22,
+    "name": "acid-bubble",
     "power": 16,
     "type": "water",
     "range": 1,
     "effect": "acid_splash"
   },
   {
-    "id": "spore_cloud",
-    "name": "Spore Cloud",
+    "id": 23,
+    "name": "spore-cloud",
     "power": 17,
     "type": "earth",
     "range": 2,
     "effect": "toxic_fog"
   },
-
-  { "id": "nova_blast", "name": "Nova Blast", "power": 32, "type": "fire", "range": 2, "effect": "fire_explosion" },
-  { "id": "mega_flame", "name": "Mega Flame", "power": 30, "type": "fire", "range": 2, "effect": "fire_burst" },
-  { "id": "icy_breath", "name": "Icy Breath", "power": 24, "type": "ice", "range": 2, "effect": "freeze_blow" },
-  { "id": "ice_hammer", "name": "Ice Hammer", "power": 22, "type": "ice", "range": 1, "effect": "crystal_smash" },
-  { "id": "wolf_fang_fist", "name": "Wolf Fang Fist", "power": 26, "type": "normal", "range": 1, "effect": "fang_strike" },
-
-  { "id": "hydro_cannon", "name": "Hydro Cannon", "power": 28, "type": "water", "range": 2, "effect": "water_blast" },
-  { "id": "tidal_crush", "name": "Tidal Crush", "power": 24, "type": "water", "range": 1, "effect": "wave_slam" },
-  { "id": "electric_fury", "name": "Electric Fury", "power": 27, "type": "electric", "range": 1, "effect": "lightning_strike" },
-  { "id": "storm_cutter", "name": "Storm Cutter", "power": 25, "type": "wind", "range": 2, "effect": "wind_scythe" },
-
-  { "id": "poison_spore", "name": "Poison Spore", "power": 21, "type": "plant", "range": 2, "effect": "toxic_cloud" },
-  { "id": "thorn_whip", "name": "Thorn Whip", "power": 19, "type": "plant", "range": 1, "effect": "vine_strike" },
-  { "id": "holy_blast", "name": "Holy Blast", "power": 26, "type": "light", "range": 2, "effect": "divine_flash" },
-  { "id": "shadow_claw", "name": "Shadow Claw", "power": 23, "type": "dark", "range": 1, "effect": "dark_slash" },
-  { "id": "phantom_scream", "name": "Phantom Scream", "power": 22, "type": "dark", "range": 2, "effect": "fear_wave" },
-
-  { "id": "rock_breaker", "name": "Rock Breaker", "power": 24, "type": "earth", "range": 1, "effect": "stone_impact" },
-  { "id": "drill_drive", "name": "Drill Drive", "power": 25, "type": "earth", "range": 1, "effect": "piercing_charge" },
-  { "id": "metal_cannon", "name": "Metal Cannon", "power": 28, "type": "metal", "range": 2, "effect": "bullet_burst" },
-  { "id": "gear_smash", "name": "Gear Smash", "power": 21, "type": "metal", "range": 1, "effect": "metal_strike" }
-
-
+  {
+    "id": 24,
+    "name": "nova-blast",
+    "power": 32,
+    "type": "fire",
+    "range": 2,
+    "effect": "fire_explosion"
+  },
+  {
+    "id": 25,
+    "name": "mega-flame",
+    "power": 30,
+    "type": "fire",
+    "range": 2,
+    "effect": "fire_burst"
+  },
+  {
+    "id": 26,
+    "name": "icy-breath",
+    "power": 24,
+    "type": "ice",
+    "range": 2,
+    "effect": "freeze_blow"
+  },
+  {
+    "id": 27,
+    "name": "ice-hammer",
+    "power": 22,
+    "type": "ice",
+    "range": 1,
+    "effect": "crystal_smash"
+  },
+  {
+    "id": 28,
+    "name": "wolf-fang-fist",
+    "power": 26,
+    "type": "normal",
+    "range": 1,
+    "effect": "fang_strike"
+  },
+  {
+    "id": 29,
+    "name": "hydro-cannon",
+    "power": 28,
+    "type": "water",
+    "range": 2,
+    "effect": "water_blast"
+  },
+  {
+    "id": 30,
+    "name": "tidal-crush",
+    "power": 24,
+    "type": "water",
+    "range": 1,
+    "effect": "wave_slam"
+  },
+  {
+    "id": 31,
+    "name": "electric-fury",
+    "power": 27,
+    "type": "electric",
+    "range": 1,
+    "effect": "lightning_strike"
+  },
+  {
+    "id": 32,
+    "name": "storm-cutter",
+    "power": 25,
+    "type": "wind",
+    "range": 2,
+    "effect": "wind_scythe"
+  },
+  {
+    "id": 33,
+    "name": "poison-spore",
+    "power": 21,
+    "type": "plant",
+    "range": 2,
+    "effect": "toxic_cloud"
+  },
+  {
+    "id": 34,
+    "name": "thorn-whip",
+    "power": 19,
+    "type": "plant",
+    "range": 1,
+    "effect": "vine_strike"
+  },
+  {
+    "id": 35,
+    "name": "holy-blast",
+    "power": 26,
+    "type": "light",
+    "range": 2,
+    "effect": "divine_flash"
+  },
+  {
+    "id": 36,
+    "name": "shadow-claw",
+    "power": 23,
+    "type": "dark",
+    "range": 1,
+    "effect": "dark_slash"
+  },
+  {
+    "id": 37,
+    "name": "phantom-scream",
+    "power": 22,
+    "type": "dark",
+    "range": 2,
+    "effect": "fear_wave"
+  },
+  {
+    "id": 38,
+    "name": "rock-breaker",
+    "power": 24,
+    "type": "earth",
+    "range": 1,
+    "effect": "stone_impact"
+  },
+  {
+    "id": 39,
+    "name": "drill-drive",
+    "power": 25,
+    "type": "earth",
+    "range": 1,
+    "effect": "piercing_charge"
+  },
+  {
+    "id": 40,
+    "name": "metal-cannon",
+    "power": 28,
+    "type": "metal",
+    "range": 2,
+    "effect": "bullet_burst"
+  },
+  {
+    "id": 41,
+    "name": "gear-smash",
+    "power": 21,
+    "type": "metal",
+    "range": 1,
+    "effect": "metal_strike"
+  }
 ]
-

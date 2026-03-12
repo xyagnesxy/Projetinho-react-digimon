@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": 0,
     "name": "Agumon",
     "image": "digimons/level1/agumon.png",
     "level": 1,
@@ -10,8 +10,8 @@
     "def": 15,
     "speed": 10,
     "attacks": [
-      "pepper_breath",
-      "claw_swipe"
+      0,
+      1
     ],
     "evolutions": [
       {
@@ -29,7 +29,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 1,
     "name": "Gabumon",
     "image": "/digimons/level1/gabumon.png",
     "level": 1,
@@ -39,7 +39,7 @@
     "def": 18,
     "speed": 9,
     "attacks": [
-      "blue_blaster"
+      2
     ],
     "evolutions": [
       {
@@ -53,7 +53,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": 2,
     "name": "Tentomon",
     "image": "/digimons/level1/tentomon.png",
     "level": 1,
@@ -63,7 +63,7 @@
     "def": 14,
     "speed": 12,
     "attacks": [
-      "super_shocker"
+      3
     ],
     "evolutions": [
       {
@@ -81,7 +81,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 3,
     "name": "Piyomon",
     "image": "/digimons/level1/piyomon.png",
     "level": 1,
@@ -91,7 +91,7 @@
     "def": 13,
     "speed": 13,
     "attacks": [
-      "spiral_twister"
+      4
     ],
     "evolutions": [
       {
@@ -109,7 +109,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 4,
     "name": "Palmon",
     "image": "/digimons/level1/palmon.png",
     "level": 1,
@@ -119,8 +119,8 @@
     "def": 17,
     "speed": 9,
     "attacks": [
-      "poison_ivies",
-      "root_bind"
+      5,
+      6
     ],
     "evolutions": [
       {
@@ -138,7 +138,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": 5,
     "name": "Gomamon",
     "image": "/digimons/level1/gomamon.png",
     "level": 1,
@@ -148,7 +148,7 @@
     "def": 16,
     "speed": 10,
     "attacks": [
-      "marching_fishes"
+      7
     ],
     "evolutions": [
       {
@@ -166,7 +166,7 @@
     ]
   },
   {
-    "id": 7,
+    "id": 6,
     "name": "Patamon",
     "image": "/digimons/level1/patamon.png",
     "level": 1,
@@ -176,7 +176,7 @@
     "def": 13,
     "speed": 12,
     "attacks": [
-      "boom_bubble"
+      8
     ],
     "evolutions": [
       {
@@ -194,7 +194,7 @@
     ]
   },
   {
-    "id": 8,
+    "id": 7,
     "name": "Salamon",
     "image": "/digimons/level1/salamon.png",
     "level": 1,
@@ -204,8 +204,8 @@
     "def": 12,
     "speed": 13,
     "attacks": [
-      "puppy_howl",
-      "holy_flash"
+      9,
+      10
     ],
     "evolutions": [
       {
@@ -223,7 +223,7 @@
     ]
   },
   {
-    "id": 9,
+    "id": 8,
     "name": "Picodevimon",
     "image": "/digimons/level1/picodevimon.png",
     "level": 1,
@@ -233,8 +233,8 @@
     "def": 11,
     "speed": 14,
     "attacks": [
-      "evil_chain",
-      "bat_attack"
+      11,
+      12
     ],
     "evolutions": [
       {
@@ -256,7 +256,7 @@
     ]
   },
   {
-    "id": 10,
+    "id": 9,
     "name": "Elecmon",
     "image": "/digimons/level1/elecmon.png",
     "level": 1,
@@ -266,7 +266,7 @@
     "def": 14,
     "speed": 12,
     "attacks": [
-      "super_thunder_strike"
+      13
     ],
     "evolutions": [
       {
@@ -280,7 +280,7 @@
     ]
   },
   {
-    "id": 11,
+    "id": 10,
     "name": "Gottsumon",
     "image": "/digimons/level1/gottsumon.png",
     "level": 1,
@@ -290,8 +290,8 @@
     "def": 20,
     "speed": 8,
     "attacks": [
-      "rock_fist",
-      "stone_edge"
+      14,
+      15
     ],
     "evolutions": [
       {
@@ -309,7 +309,7 @@
     ]
   },
   {
-    "id": 12,
+    "id": 11,
     "name": "Betamon",
     "image": "/digimons/level1/betamon.png",
     "level": 1,
@@ -319,7 +319,7 @@
     "def": 14,
     "speed": 11,
     "attacks": [
-      "electric_shock"
+      16
     ],
     "evolutions": [
       {
@@ -337,7 +337,7 @@
     ]
   },
   {
-    "id": 13,
+    "id": 12,
     "name": "Gazimon",
     "image": "/digimons/level1/gazimon.png",
     "level": 1,
@@ -347,7 +347,7 @@
     "def": 12,
     "speed": 13,
     "attacks": [
-      "electric_stun_blast"
+      17
     ],
     "evolutions": [
       {
@@ -365,7 +365,7 @@
     ]
   },
   {
-    "id": 14,
+    "id": 13,
     "name": "Hagurumon",
     "image": "/digimons/level1/hagurumon.png",
     "level": 1,
@@ -375,7 +375,7 @@
     "def": 18,
     "speed": 8,
     "attacks": [
-      "darkness_gear"
+      18
     ],
     "evolutions": [
       {
@@ -393,7 +393,7 @@
     ]
   },
   {
-    "id": 15,
+    "id": 14,
     "name": "Floramon",
     "image": "/digimons/level1/floramon.png",
     "level": 1,
@@ -403,7 +403,7 @@
     "def": 16,
     "speed": 10,
     "attacks": [
-      "stamen_rope"
+      19
     ],
     "evolutions": [
       {
@@ -421,7 +421,7 @@
     ]
   },
   {
-    "id": 16,
+    "id": 15,
     "name": "Chuumon",
     "image": "/digimons/level1/chuumon.png",
     "level": 1,
@@ -431,7 +431,7 @@
     "def": 10,
     "speed": 15,
     "attacks": [
-      "trash_throw"
+      20
     ],
     "evolutions": [
       {
@@ -449,7 +449,7 @@
     ]
   },
   {
-    "id": 17,
+    "id": 16,
     "name": "Gizamon",
     "image": "/digimons/level1/gizamon.png",
     "level": 1,
@@ -459,7 +459,7 @@
     "def": 13,
     "speed": 12,
     "attacks": [
-      "spiral_edge"
+      21
     ],
     "evolutions": [
       {
@@ -477,7 +477,7 @@
     ]
   },
   {
-    "id": 18,
+    "id": 17,
     "name": "Otamamon",
     "image": "/digimons/level1/otamamon.png",
     "level": 1,
@@ -487,7 +487,7 @@
     "def": 15,
     "speed": 10,
     "attacks": [
-      "acid_bubble"
+      22
     ],
     "evolutions": [
       {
@@ -505,7 +505,7 @@
     ]
   },
   {
-    "id": 19,
+    "id": 18,
     "name": "Mushmon",
     "image": "/digimons/level1/mushmon.png",
     "level": 1,
@@ -515,7 +515,7 @@
     "def": 16,
     "speed": 9,
     "attacks": [
-      "spore_cloud"
+      23
     ],
     "evolutions": [
       {
@@ -533,7 +533,7 @@
     ]
   },
   {
-    "id": 101,
+    "id": 19,
     "name": "Greymon",
     "level": 2,
     "hp": 130,
@@ -543,12 +543,12 @@
     "type": "fire",
     "image": "/digimons/level2/greymon.png",
     "attacks": [
-      "nova_blast",
-      "mega_flame"
+      24,
+      25
     ]
   },
   {
-    "id": 102,
+    "id": 20,
     "name": "Tyranomon",
     "level": 2,
     "hp": 130,
@@ -558,12 +558,11 @@
     "type": "fire",
     "image": "/digimons/level2/tyranomon.png",
     "attacks": [
-      "claw_swipe",
-      "fire_burst"
+      1
     ]
   },
   {
-    "id": 103,
+    "id": 21,
     "name": "Meramon",
     "level": 2,
     "hp": 130,
@@ -573,12 +572,11 @@
     "type": "fire",
     "image": "/digimons/level2/meramon.png",
     "attacks": [
-      "mega_flame",
-      "fire_burst"
+      25
     ]
   },
   {
-    "id": 104,
+    "id": 22,
     "name": "Garurumon",
     "level": 2,
     "hp": 124,
@@ -588,12 +586,12 @@
     "type": "ice",
     "image": "/digimons/level2/garurumon.png",
     "attacks": [
-      "wolf_fang_fist",
-      "icy_breath"
+      28,
+      26
     ]
   },
   {
-    "id": 105,
+    "id": 23,
     "name": "Yukidarumon",
     "level": 2,
     "hp": 124,
@@ -603,12 +601,12 @@
     "type": "ice",
     "image": "/digimons/level2/yukidarumon.png",
     "attacks": [
-      "ice_hammer",
-      "icy_breath"
+      27,
+      26
     ]
   },
   {
-    "id": 106,
+    "id": 24,
     "name": "Ikkakumon",
     "level": 2,
     "hp": 124,
@@ -618,12 +616,12 @@
     "type": "water",
     "image": "/digimons/level2/ikkakumon.png",
     "attacks": [
-      "hydro_cannon",
-      "tidal_crush"
+      29,
+      30
     ]
   },
   {
-    "id": 107,
+    "id": 25,
     "name": "Kabuterimon",
     "level": 2,
     "hp": 117,
@@ -633,12 +631,12 @@
     "type": "electric",
     "image": "/digimons/level2/kabuterimon.png",
     "attacks": [
-      "electric_fury",
-      "drill_drive"
+      31,
+      39
     ]
   },
   {
-    "id": 108,
+    "id": 26,
     "name": "Kuwagamon",
     "level": 2,
     "hp": 117,
@@ -648,12 +646,12 @@
     "type": "electric",
     "image": "/digimons/level2/kuwagamon.png",
     "attacks": [
-      "storm_cutter",
-      "drill_drive"
+      32,
+      39
     ]
   },
   {
-    "id": 109,
+    "id": 27,
     "name": "Dokugumon",
     "level": 2,
     "hp": 117,
@@ -663,12 +661,12 @@
     "type": "dark",
     "image": "/digimons/level2/dokugumon.png",
     "attacks": [
-      "poison_spore",
-      "thorn_whip"
+      33,
+      34
     ]
   },
   {
-    "id": 110,
+    "id": 28,
     "name": "Birdramon",
     "level": 2,
     "hp": 111,
@@ -678,12 +676,12 @@
     "type": "wind",
     "image": "/digimons/level2/birdramon.png",
     "attacks": [
-      "nova_blast",
-      "storm_cutter"
+      24,
+      32
     ]
   },
   {
-    "id": 111,
+    "id": 29,
     "name": "Cockatrimon",
     "level": 2,
     "hp": 111,
@@ -693,12 +691,12 @@
     "type": "wind",
     "image": "/digimons/level2/cockatrimon.png",
     "attacks": [
-      "storm_cutter",
-      "claw_swipe"
+      32,
+      1
     ]
   },
   {
-    "id": 112,
+    "id": 30,
     "name": "Airdramon",
     "level": 2,
     "hp": 111,
@@ -708,12 +706,11 @@
     "type": "wind",
     "image": "/digimons/level2/airdramon.png",
     "attacks": [
-      "storm_cutter",
-      "wind_scythe"
+      32
     ]
   },
   {
-    "id": 113,
+    "id": 31,
     "name": "Togemon",
     "level": 2,
     "hp": 130,
@@ -723,12 +720,12 @@
     "type": "earth",
     "image": "/digimons/level2/togemon.png",
     "attacks": [
-      "thorn_whip",
-      "poison_spore"
+      34,
+      33
     ]
   },
   {
-    "id": 114,
+    "id": 32,
     "name": "Woodmon",
     "level": 2,
     "hp": 130,
@@ -738,12 +735,11 @@
     "type": "earth",
     "image": "/digimons/level2/woodmon.png",
     "attacks": [
-      "thorn_whip",
-      "vine_strike"
+      34
     ]
   },
   {
-    "id": 115,
+    "id": 33,
     "name": "Kiwimon",
     "level": 2,
     "hp": 130,
@@ -753,11 +749,11 @@
     "type": "earth",
     "image": "/digimons/level2/kiwimon.png",
     "attacks": [
-      "storm_cutter"
+      32
     ]
   },
   {
-    "id": 116,
+    "id": 34,
     "name": "Seadramon",
     "level": 2,
     "hp": 124,
@@ -767,11 +763,11 @@
     "type": "water",
     "image": "/digimons/level2/seadramon.png",
     "attacks": [
-      "hydro_cannon"
+      29
     ]
   },
   {
-    "id": 117,
+    "id": 35,
     "name": "Whamon",
     "level": 2,
     "hp": 124,
@@ -781,12 +777,12 @@
     "type": "water",
     "image": "/digimons/level2/whamon.png",
     "attacks": [
-      "tidal_crush",
-      "hydro_cannon"
+      30,
+      29
     ]
   },
   {
-    "id": 118,
+    "id": 36,
     "name": "Gesomon",
     "level": 2,
     "hp": 124,
@@ -796,11 +792,11 @@
     "type": "water",
     "image": "/digimons/level2/gesomon.png",
     "attacks": [
-      "tidal_crush"
+      30
     ]
   },
   {
-    "id": 119,
+    "id": 37,
     "name": "Angemon",
     "level": 2,
     "hp": 117,
@@ -810,12 +806,11 @@
     "type": "light",
     "image": "/digimons/level2/angemon.png",
     "attacks": [
-      "holy_blast",
-      "divine_flash"
+      35
     ]
   },
   {
-    "id": 120,
+    "id": 38,
     "name": "Unimon",
     "level": 2,
     "hp": 117,
@@ -825,11 +820,11 @@
     "type": "light",
     "image": "/digimons/level2/unimon.png",
     "attacks": [
-      "holy_blast"
+      35
     ]
   },
   {
-    "id": 121,
+    "id": 39,
     "name": "Drimogemon",
     "level": 2,
     "hp": 124,
@@ -839,12 +834,12 @@
     "type": "earth",
     "image": "/digimons/level2/drimogemon.png",
     "attacks": [
-      "drill_drive",
-      "rock_breaker"
+      39,
+      38
     ]
   },
   {
-    "id": 122,
+    "id": 40,
     "name": "Wizarmon",
     "level": 2,
     "hp": 117,
@@ -854,12 +849,12 @@
     "type": "dark",
     "image": "/digimons/level2/wizarmon.png",
     "attacks": [
-      "holy_blast",
-      "shadow_claw"
+      35,
+      36
     ]
   },
   {
-    "id": 123,
+    "id": 41,
     "name": "Tailmon",
     "level": 2,
     "hp": 111,
@@ -869,12 +864,12 @@
     "type": "light",
     "image": "/digimons/level2/tailmon.png",
     "attacks": [
-      "holy_blast",
-      "claw_swipe"
+      35,
+      1
     ]
   },
   {
-    "id": 124,
+    "id": 42,
     "name": "Nefertimon",
     "level": 2,
     "hp": 111,
@@ -884,12 +879,11 @@
     "type": "light",
     "image": "/digimons/level2/nefertimon.png",
     "attacks": [
-      "divine_flash",
-      "storm_cutter"
+      32
     ]
   },
   {
-    "id": 125,
+    "id": 43,
     "name": "Devimon",
     "level": 2,
     "hp": 111,
@@ -899,12 +893,12 @@
     "type": "dark",
     "image": "/digimons/level2/devimon.png",
     "attacks": [
-      "shadow_claw",
-      "phantom_scream"
+      36,
+      37
     ]
   },
   {
-    "id": 126,
+    "id": 44,
     "name": "Bakemon",
     "level": 2,
     "hp": 111,
@@ -914,11 +908,11 @@
     "type": "dark",
     "image": "/digimons/level2/bakemon.png",
     "attacks": [
-      "phantom_scream"
+      37
     ]
   },
   {
-    "id": 127,
+    "id": 45,
     "name": "Orgemon",
     "level": 2,
     "hp": 111,
@@ -928,12 +922,12 @@
     "type": "dark",
     "image": "/digimons/level2/orgemon.png",
     "attacks": [
-      "claw_swipe",
-      "rock_breaker"
+      1,
+      38
     ]
   },
   {
-    "id": 128,
+    "id": 46,
     "name": "Devidramon",
     "level": 2,
     "hp": 111,
@@ -943,11 +937,11 @@
     "type": "dark",
     "image": "/digimons/level2/devidramon.png",
     "attacks": [
-      "shadow_claw"
+      36
     ]
   },
   {
-    "id": 129,
+    "id": 47,
     "name": "Leomon",
     "level": 2,
     "hp": 117,
@@ -957,12 +951,12 @@
     "type": "earth",
     "image": "/digimons/level2/leomon.png",
     "attacks": [
-      "wolf_fang_fist",
-      "holy_blast"
+      28,
+      35
     ]
   },
   {
-    "id": 130,
+    "id": 48,
     "name": "Centarumon",
     "level": 2,
     "hp": 117,
@@ -972,11 +966,11 @@
     "type": "light",
     "image": "/digimons/level2/centarumon.png",
     "attacks": [
-      "metal_cannon"
+      40
     ]
   },
   {
-    "id": 131,
+    "id": 49,
     "name": "Golemon",
     "level": 2,
     "hp": 143,
@@ -986,11 +980,11 @@
     "type": "earth",
     "image": "/digimons/level2/golemon.png",
     "attacks": [
-      "rock_breaker"
+      38
     ]
   },
   {
-    "id": 132,
+    "id": 50,
     "name": "Monochromon",
     "level": 2,
     "hp": 143,
@@ -1000,12 +994,12 @@
     "type": "earth",
     "image": "/digimons/level2/monochromon.png",
     "attacks": [
-      "metal_cannon",
-      "rock_breaker"
+      40,
+      38
     ]
   },
   {
-    "id": 133,
+    "id": 51,
     "name": "Starmon",
     "level": 2,
     "hp": 104,
@@ -1015,12 +1009,12 @@
     "type": "light",
     "image": "/digimons/level2/starmon.png",
     "attacks": [
-      "gear_smash",
-      "metal_cannon"
+      41,
+      40
     ]
   },
   {
-    "id": 134,
+    "id": 52,
     "name": "Coelamon",
     "level": 2,
     "hp": 124,
@@ -1030,11 +1024,11 @@
     "type": "water",
     "image": "/digimons/level2/coelamon.png",
     "attacks": [
-      "hydro_cannon"
+      29
     ]
   },
   {
-    "id": 135,
+    "id": 53,
     "name": "Dobermon",
     "level": 2,
     "hp": 117,
@@ -1044,11 +1038,11 @@
     "type": "dark",
     "image": "/digimons/level2/dobermon.png",
     "attacks": [
-      "shadow_claw"
+      36
     ]
   },
   {
-    "id": 136,
+    "id": 54,
     "name": "Guardromon",
     "level": 2,
     "hp": 130,
@@ -1058,11 +1052,11 @@
     "type": "metal",
     "image": "/digimons/level2/guardromon.png",
     "attacks": [
-      "gear_smash"
+      41
     ]
   },
   {
-    "id": 137,
+    "id": 55,
     "name": "Clockmon",
     "level": 2,
     "hp": 130,
@@ -1072,11 +1066,11 @@
     "type": "metal",
     "image": "/digimons/level2/clockmon.png",
     "attacks": [
-      "gear_smash"
+      41
     ]
   },
   {
-    "id": 138,
+    "id": 56,
     "name": "Tankmon",
     "level": 2,
     "hp": 130,
@@ -1086,11 +1080,11 @@
     "type": "metal",
     "image": "/digimons/level2/tankmon.png",
     "attacks": [
-      "metal_cannon"
+      40
     ]
   },
   {
-    "id": 139,
+    "id": 57,
     "name": "Vegimon",
     "level": 2,
     "hp": 124,
@@ -1100,11 +1094,11 @@
     "type": "earth",
     "image": "/digimons/level2/vegimon.png",
     "attacks": [
-      "poison_spore"
+      33
     ]
   },
   {
-    "id": 140,
+    "id": 58,
     "name": "RedVegimon",
     "level": 2,
     "hp": 124,
@@ -1114,11 +1108,11 @@
     "type": "earth",
     "image": "/digimons/level2/redvegimon.png",
     "attacks": [
-      "poison_spore"
+      33
     ]
   },
   {
-    "id": 141,
+    "id": 59,
     "name": "Sunflowmon",
     "level": 2,
     "hp": 124,
@@ -1128,11 +1122,11 @@
     "type": "earth",
     "image": "/digimons/level2/sunflowmon.png",
     "attacks": [
-      "vine_strike"
+      34
     ]
   },
   {
-    "id": 142,
+    "id": 60,
     "name": "Numemon",
     "level": 2,
     "hp": 104,
@@ -1142,11 +1136,11 @@
     "type": "dark",
     "image": "/digimons/level2/numemon.png",
     "attacks": [
-      "acid_bubble"
+      22
     ]
   },
   {
-    "id": 143,
+    "id": 61,
     "name": "Nanimon",
     "level": 2,
     "hp": 104,
@@ -1156,11 +1150,11 @@
     "type": "dark",
     "image": "/digimons/level2/nanimon.png",
     "attacks": [
-      "claw_swipe"
+      1
     ]
   },
   {
-    "id": 144,
+    "id": 62,
     "name": "Raremon",
     "level": 2,
     "hp": 104,
@@ -1170,11 +1164,11 @@
     "type": "dark",
     "image": "/digimons/level2/raremon.png",
     "attacks": [
-      "toxic_cloud"
+      33
     ]
   },
   {
-    "id": 145,
+    "id": 63,
     "name": "Gekomon",
     "level": 2,
     "hp": 124,
@@ -1184,11 +1178,11 @@
     "type": "water",
     "image": "/digimons/level2/gekomon.png",
     "attacks": [
-      "acid_bubble"
+      22
     ]
   },
   {
-    "id": 146,
+    "id": 64,
     "name": "DarkTyranomon",
     "level": 2,
     "hp": 130,
@@ -1198,8 +1192,8 @@
     "type": "dark",
     "image": "/digimons/level2/darktyranomon.png",
     "attacks": [
-      "shadow_claw",
-      "fire_burst"
+      36,
+      25
     ]
   }
 ]

@@ -1,17 +1,17 @@
 import { use, useState } from 'react'
 import './App.css'
 import {MenuScreen} from './screens/MenuScreen'
-import {BattleScreen} from './screens/BattleScreen'
+import {BattleScreen} from './screens/battleScreen/BattleScreen'
 import {SelectionScreen} from './screens/SelectionScreen'
 import { useGame } from './context/GameContext'
 
 function App() {
 
-  const {currentScreen} = useGame()
+  const {gameState} = useGame()
+  
 
 
-
-  switch(currentScreen){
+  switch(gameState.currentScreen){
     case "menu":
       return(<MenuScreen/>);
     case "selection":

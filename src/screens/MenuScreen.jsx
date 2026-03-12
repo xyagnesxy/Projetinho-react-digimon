@@ -1,26 +1,26 @@
 import React from 'react'
-import './MenuScreen.css'
+import './MenuScreen.module.css'
 import { MenuButton } from '../components/MenuButton'
 import {useGame} from '../context/GameContext'
-import GameLayout from '../components/GameLayout'
+import "../styles/utils.css"
 
 export const MenuScreen = () => {
   
-    const {goToSelectionScreen} = useGame()
+    const {gameDispatch} = useGame()
     
   return (
-    <GameLayout>
-          <div className="menu-screen">
+    
+          <div className="menu-screen game-layout">
             <h1 className='menu-title'>Projetinho Digimon</h1>
 
             <div className='menu-buttons'>
-                <MenuButton text='Começar' onClick={()=>goToSelectionScreen()}/>
+                <MenuButton text='Começar' onClick={()=>gameDispatch({type: "CHANGE_SCREEN", payload: "selection"})}/>
             </div>
 
             
              
         
             </div>
-    </GameLayout>
+    
   )
 }
