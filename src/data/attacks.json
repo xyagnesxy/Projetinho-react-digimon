@@ -5,7 +5,8 @@
     "power": 20,
     "type": "fire",
     "range": 1,
-    "effect": "fire_burst"
+    "effect": "fire_burst",
+    "tier": "weak"
   },
   {
     "id": 1,
@@ -13,7 +14,8 @@
     "power": 15,
     "type": "normal",
     "range": 1,
-    "effect": "physical_hit"
+    "effect": "physical_hit",
+    "tier": "weak"
   },
   {
     "id": 2,
@@ -21,7 +23,8 @@
     "power": 18,
     "type": "ice",
     "range": 2,
-    "effect": "water_splash"
+    "effect": "water_splash",
+    "tier": "weak"
   },
   {
     "id": 3,
@@ -29,7 +32,8 @@
     "power": 16,
     "type": "electric",
     "range": 1,
-    "effect": "water_splash"
+    "effect": "water_splash",
+    "tier": "weak"
   },
   {
     "id": 4,
@@ -37,7 +41,8 @@
     "power": 17,
     "type": "wind",
     "range": 2,
-    "effect": "water_splash"
+    "effect": "water_splash",
+    "tier": "weak"
   },
   {
     "id": 5,
@@ -45,7 +50,8 @@
     "power": 18,
     "type": "earth",
     "range": 1,
-    "effect": "poison_vines"
+    "effect": "poison_vines",
+    "tier": "weak"
   },
   {
     "id": 6,
@@ -53,7 +59,8 @@
     "power": 15,
     "type": "earth",
     "range": 1,
-    "effect": "ground_burst"
+    "effect": "ground_burst",
+    "tier": "weak"
   },
   {
     "id": 7,
@@ -61,7 +68,8 @@
     "power": 17,
     "type": "water",
     "range": 2,
-    "effect": "water_splash"
+    "effect": "water_splash",
+    "tier": "weak"
   },
   {
     "id": 8,
@@ -69,7 +77,8 @@
     "power": 19,
     "type": "wind",
     "range": 2,
-    "effect": "wind_wave"
+    "effect": "wind_wave",
+    "tier": "weak"
   },
   {
     "id": 9,
@@ -77,7 +86,8 @@
     "power": 14,
     "type": "light",
     "range": 1,
-    "effect": "light_flash"
+    "effect": "light_flash",
+    "tier": "weak"
   },
   {
     "id": 10,
@@ -85,7 +95,8 @@
     "power": 20,
     "type": "light",
     "range": 2,
-    "effect": "holy_burst"
+    "effect": "holy_burst",
+    "tier": "weak"
   },
   {
     "id": 11,
@@ -93,7 +104,8 @@
     "power": 17,
     "type": "dark",
     "range": 1,
-    "effect": "dark_bind"
+    "effect": "dark_bind",
+    "tier": "weak"
   },
   {
     "id": 12,
@@ -101,7 +113,8 @@
     "power": 16,
     "type": "dark",
     "range": 2,
-    "effect": "shadow_swarm"
+    "effect": "shadow_swarm",
+    "tier": "weak"
   },
   {
     "id": 13,
@@ -109,7 +122,8 @@
     "power": 18,
     "type": "electric",
     "range": 2,
-    "effect": "electric_burst"
+    "effect": "electric_burst",
+    "tier": "weak"
   },
   {
     "id": 14,
@@ -117,7 +131,8 @@
     "power": 17,
     "type": "earth",
     "range": 1,
-    "effect": "rock_impact"
+    "effect": "rock_impact",
+    "tier": "weak"
   },
   {
     "id": 15,
@@ -125,7 +140,8 @@
     "power": 19,
     "type": "earth",
     "range": 2,
-    "effect": "stone_shards"
+    "effect": "stone_shards",
+    "tier": "weak"
   },
   {
     "id": 16,
@@ -133,7 +149,8 @@
     "power": 17,
     "type": "electric",
     "range": 1,
-    "effect": "spark_burst"
+    "effect": "spark_burst",
+    "tier": "weak"
   },
   {
     "id": 17,
@@ -141,7 +158,8 @@
     "power": 18,
     "type": "electric",
     "range": 1,
-    "effect": "stun_flash"
+    "effect": "stun_flash",
+    "tier": "weak"
   },
   {
     "id": 18,
@@ -149,7 +167,8 @@
     "power": 20,
     "type": "dark",
     "range": 1,
-    "effect": "gear_spin"
+    "effect": "gear_spin",
+    "tier": "weak"
   },
   {
     "id": 19,
@@ -157,7 +176,8 @@
     "power": 16,
     "type": "earth",
     "range": 1,
-    "effect": "vine_whip"
+    "effect": "vine_whip",
+    "tier": "weak"
   },
   {
     "id": 20,
@@ -165,7 +185,8 @@
     "power": 14,
     "type": "dark",
     "range": 1,
-    "effect": "debris_hit"
+    "effect": "debris_hit",
+    "tier": "weak"
   },
   {
     "id": 21,
@@ -173,7 +194,8 @@
     "power": 18,
     "type": "water",
     "range": 1,
-    "effect": "aqua_slash"
+    "effect": "aqua_slash",
+    "tier": "weak"
   },
   {
     "id": 22,
@@ -181,7 +203,8 @@
     "power": 16,
     "type": "water",
     "range": 1,
-    "effect": "acid_splash"
+    "effect": "acid_splash",
+    "tier": "weak"
   },
   {
     "id": 23,
@@ -189,7 +212,8 @@
     "power": 17,
     "type": "earth",
     "range": 2,
-    "effect": "toxic_fog"
+    "effect": "toxic_fog",
+    "tier": "weak"
   },
   {
     "id": 24,
@@ -197,7 +221,8 @@
     "power": 32,
     "type": "fire",
     "range": 2,
-    "effect": "fire_explosion"
+    "effect": "fire_explosion",
+    "tier": "strong"
   },
   {
     "id": 25,
@@ -205,7 +230,8 @@
     "power": 30,
     "type": "fire",
     "range": 2,
-    "effect": "fire_burst"
+    "effect": "fire_burst",
+    "tier": "medium"
   },
   {
     "id": 26,
@@ -213,7 +239,8 @@
     "power": 24,
     "type": "ice",
     "range": 2,
-    "effect": "freeze_blow"
+    "effect": "freeze_blow",
+    "tier": "medium"
   },
   {
     "id": 27,
@@ -221,7 +248,8 @@
     "power": 22,
     "type": "ice",
     "range": 1,
-    "effect": "crystal_smash"
+    "effect": "crystal_smash",
+    "tier": "medium"
   },
   {
     "id": 28,
@@ -229,7 +257,8 @@
     "power": 26,
     "type": "normal",
     "range": 1,
-    "effect": "fang_strike"
+    "effect": "fang_strike",
+    "tier": "medium"
   },
   {
     "id": 29,
@@ -237,7 +266,8 @@
     "power": 28,
     "type": "water",
     "range": 2,
-    "effect": "water_blast"
+    "effect": "water_blast",
+    "tier": "medium"
   },
   {
     "id": 30,
@@ -245,7 +275,8 @@
     "power": 24,
     "type": "water",
     "range": 1,
-    "effect": "wave_slam"
+    "effect": "wave_slam",
+    "tier": "medium"
   },
   {
     "id": 31,
@@ -253,7 +284,8 @@
     "power": 27,
     "type": "electric",
     "range": 1,
-    "effect": "lightning_strike"
+    "effect": "lightning_strike",
+    "tier": "medium"
   },
   {
     "id": 32,
@@ -261,7 +293,8 @@
     "power": 25,
     "type": "wind",
     "range": 2,
-    "effect": "wind_scythe"
+    "effect": "wind_scythe",
+    "tier": "medium"
   },
   {
     "id": 33,
@@ -269,7 +302,8 @@
     "power": 21,
     "type": "plant",
     "range": 2,
-    "effect": "toxic_cloud"
+    "effect": "toxic_cloud",
+    "tier": "medium"
   },
   {
     "id": 34,
@@ -277,7 +311,8 @@
     "power": 19,
     "type": "plant",
     "range": 1,
-    "effect": "vine_strike"
+    "effect": "vine_strike",
+    "tier": "weak"
   },
   {
     "id": 35,
@@ -285,7 +320,8 @@
     "power": 26,
     "type": "light",
     "range": 2,
-    "effect": "divine_flash"
+    "effect": "divine_flash",
+    "tier": "medium"
   },
   {
     "id": 36,
@@ -293,7 +329,8 @@
     "power": 23,
     "type": "dark",
     "range": 1,
-    "effect": "dark_slash"
+    "effect": "dark_slash",
+    "tier": "medium"
   },
   {
     "id": 37,
@@ -301,7 +338,8 @@
     "power": 22,
     "type": "dark",
     "range": 2,
-    "effect": "fear_wave"
+    "effect": "fear_wave",
+    "tier": "medium"
   },
   {
     "id": 38,
@@ -309,7 +347,8 @@
     "power": 24,
     "type": "earth",
     "range": 1,
-    "effect": "stone_impact"
+    "effect": "stone_impact",
+    "tier": "medium"
   },
   {
     "id": 39,
@@ -317,7 +356,8 @@
     "power": 25,
     "type": "earth",
     "range": 1,
-    "effect": "piercing_charge"
+    "effect": "piercing_charge",
+    "tier": "medium"
   },
   {
     "id": 40,
@@ -325,7 +365,8 @@
     "power": 28,
     "type": "metal",
     "range": 2,
-    "effect": "bullet_burst"
+    "effect": "bullet_burst",
+    "tier": "medium"
   },
   {
     "id": 41,
@@ -333,6 +374,7 @@
     "power": 21,
     "type": "metal",
     "range": 1,
-    "effect": "metal_strike"
+    "effect": "metal_strike",
+    "tier": "medium"
   }
 ]

@@ -1,0 +1,22 @@
+| atributo | level 1 | level 2 |
+| -------- | ------- | ------- |
+| HP       | 70–85   | 110–130 |
+| ATK      | 18–22   | 28–35   |
+| DEF      | 13–17   | 23–30   |
+| SPEED    | 11–15   | 18–26   |
+
+| tipo de ataque | power       |
+| -------------- | ----------- |
+| fraco          | [15, 20]    |
+| médio          | [20. 30]    |
+| forte          | [30, 40]    |
+
+| arquétipo | características | modificadores
+| --------- | --------------- | ----------------
+| tank      | muito HP e DEF  | { hp: 30, atk: -5, def: 5, speed: -6 }
+| striker   | ATK alto        | { hp: -10, atk: 10, def: -5, speed: 3 }
+| speed     | velocidade alta | { hp: -10, atk: 5, def: -5, speed: 10 }
+| balanced  | tudo médio      | { hp: 0, atk: 0, def: 0, speed: 0 }
+| defender  | DEF alto        | { hp: 10, atk: -6, def: 15, speed: -4 }
+
+

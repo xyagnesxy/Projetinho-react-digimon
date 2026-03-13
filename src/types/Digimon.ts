@@ -1,4 +1,6 @@
 import type {Evolutions} from "./Evolutions";
+
+export type Archetype = "balanced" | "striker" | "speed" | "tank" | "defender"
 export type Digimon = {
     id: number,
     name: string,
@@ -10,6 +12,8 @@ export type Digimon = {
     def: number;
     speed: number;
     attacks: number[];
-    evolutions?: Evolutions[]
+    evolutions?: Evolutions[],
+    archetype: Archetype
 }
+
 

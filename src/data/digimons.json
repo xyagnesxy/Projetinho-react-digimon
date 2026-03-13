@@ -5,10 +5,10 @@
     "image": "digimons/level1/agumon.png",
     "level": 1,
     "type": "fire",
-    "hp": 100,
-    "atk": 25,
-    "def": 15,
-    "speed": 10,
+    "hp": 83,
+    "atk": 18,
+    "def": 17,
+    "speed": 15,
     "attacks": [
       0,
       1
@@ -26,7 +26,8 @@
         "to": "Meramon",
         "chance": 0.1
       }
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 1,
@@ -34,10 +35,10 @@
     "image": "/digimons/level1/gabumon.png",
     "level": 1,
     "type": "ice",
-    "hp": 95,
-    "atk": 22,
-    "def": 18,
-    "speed": 9,
+    "hp": 73,
+    "atk": 19,
+    "def": 17,
+    "speed": 11,
     "attacks": [
       2
     ],
@@ -50,7 +51,8 @@
         "to": "Yukidarumon",
         "chance": 0.2
       }
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 2,
@@ -58,10 +60,10 @@
     "image": "/digimons/level1/tentomon.png",
     "level": 1,
     "type": "electric",
-    "hp": 90,
-    "atk": 20,
-    "def": 14,
-    "speed": 12,
+    "hp": 77,
+    "atk": 21,
+    "def": 17,
+    "speed": 15,
     "attacks": [
       3
     ],
@@ -78,7 +80,8 @@
         "to": "Dokugumon",
         "chance": 0.1
       }
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 3,
@@ -86,10 +89,10 @@
     "image": "/digimons/level1/piyomon.png",
     "level": 1,
     "type": "wind",
-    "hp": 85,
-    "atk": 21,
-    "def": 13,
-    "speed": 13,
+    "hp": 79,
+    "atk": 19,
+    "def": 16,
+    "speed": 12,
     "attacks": [
       4
     ],
@@ -106,7 +109,8 @@
         "to": "Cockatrimon",
         "chance": 0.1
       }
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 4,
@@ -114,10 +118,10 @@
     "image": "/digimons/level1/palmon.png",
     "level": 1,
     "type": "earth",
-    "hp": 100,
-    "atk": 20,
-    "def": 17,
-    "speed": 9,
+    "hp": 84,
+    "atk": 22,
+    "def": 15,
+    "speed": 13,
     "attacks": [
       5,
       6
@@ -135,7 +139,8 @@
         "to": "Kiwimon",
         "chance": 0.1
       }
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 5,
@@ -143,10 +148,10 @@
     "image": "/digimons/level1/gomamon.png",
     "level": 1,
     "type": "water",
-    "hp": 95,
-    "atk": 21,
-    "def": 16,
-    "speed": 10,
+    "hp": 83,
+    "atk": 18,
+    "def": 13,
+    "speed": 15,
     "attacks": [
       7
     ],
@@ -163,7 +168,8 @@
         "to": "Seadramon",
         "chance": 0.1
       }
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 6,
@@ -171,10 +177,10 @@
     "image": "/digimons/level1/patamon.png",
     "level": 1,
     "type": "wind",
-    "hp": 90,
-    "atk": 22,
-    "def": 13,
-    "speed": 12,
+    "hp": 70,
+    "atk": 18,
+    "def": 17,
+    "speed": 15,
     "attacks": [
       8
     ],
@@ -191,7 +197,8 @@
         "to": "Devimon",
         "chance": 0.1
       }
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 7,
@@ -199,10 +206,10 @@
     "image": "/digimons/level1/salamon.png",
     "level": 1,
     "type": "light",
-    "hp": 85,
-    "atk": 20,
-    "def": 12,
-    "speed": 13,
+    "hp": 77,
+    "atk": 21,
+    "def": 15,
+    "speed": 15,
     "attacks": [
       9,
       10
@@ -220,7 +227,8 @@
         "to": "Wizarmon",
         "chance": 0.1
       }
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 8,
@@ -228,10 +236,10 @@
     "image": "/digimons/level1/picodevimon.png",
     "level": 1,
     "type": "dark",
-    "hp": 85,
-    "atk": 23,
-    "def": 11,
-    "speed": 14,
+    "hp": 79,
+    "atk": 19,
+    "def": 16,
+    "speed": 13,
     "attacks": [
       11,
       12
@@ -253,7 +261,8 @@
         "to": "Devidramon",
         "chance": 0.1
       }
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 9,
@@ -261,10 +270,10 @@
     "image": "/digimons/level1/elecmon.png",
     "level": 1,
     "type": "electric",
-    "hp": 90,
+    "hp": 73,
     "atk": 21,
-    "def": 14,
-    "speed": 12,
+    "def": 17,
+    "speed": 13,
     "attacks": [
       13
     ],
@@ -277,7 +286,8 @@
         "to": "Centarumon",
         "chance": 0.3
       }
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 10,
@@ -285,10 +295,10 @@
     "image": "/digimons/level1/gottsumon.png",
     "level": 1,
     "type": "earth",
-    "hp": 110,
-    "atk": 19,
-    "def": 20,
-    "speed": 8,
+    "hp": 73,
+    "atk": 20,
+    "def": 16,
+    "speed": 14,
     "attacks": [
       14,
       15
@@ -306,7 +316,8 @@
         "to": "Starmon",
         "chance": 0.2
       }
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 11,
@@ -314,10 +325,10 @@
     "image": "/digimons/level1/betamon.png",
     "level": 1,
     "type": "water",
-    "hp": 95,
-    "atk": 22,
+    "hp": 85,
+    "atk": 18,
     "def": 14,
-    "speed": 11,
+    "speed": 14,
     "attacks": [
       16
     ],
@@ -334,7 +345,8 @@
         "to": "Coelamon",
         "chance": 0.1
       }
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 12,
@@ -342,10 +354,10 @@
     "image": "/digimons/level1/gazimon.png",
     "level": 1,
     "type": "dark",
-    "hp": 90,
-    "atk": 24,
-    "def": 12,
-    "speed": 13,
+    "hp": 72,
+    "atk": 19,
+    "def": 17,
+    "speed": 15,
     "attacks": [
       17
     ],
@@ -362,7 +374,8 @@
         "to": "Wizarmon",
         "chance": 0.2
       }
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 13,
@@ -370,10 +383,10 @@
     "image": "/digimons/level1/hagurumon.png",
     "level": 1,
     "type": "metal",
-    "hp": 100,
-    "atk": 20,
-    "def": 18,
-    "speed": 8,
+    "hp": 70,
+    "atk": 22,
+    "def": 13,
+    "speed": 12,
     "attacks": [
       18
     ],
@@ -390,7 +403,8 @@
         "to": "Tankmon",
         "chance": 0.2
       }
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 14,
@@ -398,10 +412,10 @@
     "image": "/digimons/level1/floramon.png",
     "level": 1,
     "type": "earth",
-    "hp": 95,
+    "hp": 83,
     "atk": 20,
-    "def": 16,
-    "speed": 10,
+    "def": 17,
+    "speed": 12,
     "attacks": [
       19
     ],
@@ -418,7 +432,8 @@
         "to": "Sunflowmon",
         "chance": 0.2
       }
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 15,
@@ -426,10 +441,10 @@
     "image": "/digimons/level1/chuumon.png",
     "level": 1,
     "type": "dark",
-    "hp": 80,
-    "atk": 18,
-    "def": 10,
-    "speed": 15,
+    "hp": 71,
+    "atk": 21,
+    "def": 13,
+    "speed": 12,
     "attacks": [
       20
     ],
@@ -446,7 +461,8 @@
         "to": "Raremon",
         "chance": 0.2
       }
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 16,
@@ -454,10 +470,10 @@
     "image": "/digimons/level1/gizamon.png",
     "level": 1,
     "type": "water",
-    "hp": 90,
-    "atk": 21,
-    "def": 13,
-    "speed": 12,
+    "hp": 74,
+    "atk": 22,
+    "def": 14,
+    "speed": 11,
     "attacks": [
       21
     ],
@@ -474,7 +490,8 @@
         "to": "Whamon",
         "chance": 0.2
       }
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 17,
@@ -482,10 +499,10 @@
     "image": "/digimons/level1/otamamon.png",
     "level": 1,
     "type": "water",
-    "hp": 95,
+    "hp": 76,
     "atk": 19,
     "def": 15,
-    "speed": 10,
+    "speed": 13,
     "attacks": [
       22
     ],
@@ -502,7 +519,8 @@
         "to": "Gesomon",
         "chance": 0.2
       }
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 18,
@@ -510,10 +528,10 @@
     "image": "/digimons/level1/mushmon.png",
     "level": 1,
     "type": "earth",
-    "hp": 100,
-    "atk": 22,
-    "def": 16,
-    "speed": 9,
+    "hp": 81,
+    "atk": 20,
+    "def": 13,
+    "speed": 12,
     "attacks": [
       23
     ],
@@ -530,670 +548,717 @@
         "to": "Togemon",
         "chance": 0.2
       }
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 19,
     "name": "Greymon",
     "level": 2,
-    "hp": 130,
-    "atk": 33,
-    "def": 20,
-    "speed": 13,
+    "hp": 117,
+    "atk": 35,
+    "def": 27,
+    "speed": 22,
     "type": "fire",
     "image": "/digimons/level2/greymon.png",
     "attacks": [
       24,
       25
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 20,
     "name": "Tyranomon",
     "level": 2,
-    "hp": 130,
-    "atk": 33,
-    "def": 20,
-    "speed": 13,
+    "hp": 124,
+    "atk": 32,
+    "def": 23,
+    "speed": 23,
     "type": "fire",
     "image": "/digimons/level2/tyranomon.png",
     "attacks": [
       1
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 21,
     "name": "Meramon",
     "level": 2,
-    "hp": 130,
-    "atk": 33,
-    "def": 20,
-    "speed": 13,
+    "hp": 115,
+    "atk": 29,
+    "def": 26,
+    "speed": 25,
     "type": "fire",
     "image": "/digimons/level2/meramon.png",
     "attacks": [
       25
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 22,
     "name": "Garurumon",
     "level": 2,
-    "hp": 124,
-    "atk": 29,
-    "def": 23,
-    "speed": 12,
+    "hp": 122,
+    "atk": 33,
+    "def": 30,
+    "speed": 25,
     "type": "ice",
     "image": "/digimons/level2/garurumon.png",
     "attacks": [
       28,
       26
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 23,
     "name": "Yukidarumon",
     "level": 2,
-    "hp": 124,
-    "atk": 29,
-    "def": 23,
-    "speed": 12,
+    "hp": 122,
+    "atk": 32,
+    "def": 29,
+    "speed": 22,
     "type": "ice",
     "image": "/digimons/level2/yukidarumon.png",
     "attacks": [
       27,
       26
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 24,
     "name": "Ikkakumon",
     "level": 2,
-    "hp": 124,
-    "atk": 27,
-    "def": 21,
-    "speed": 13,
+    "hp": 110,
+    "atk": 28,
+    "def": 25,
+    "speed": 25,
     "type": "water",
     "image": "/digimons/level2/ikkakumon.png",
     "attacks": [
       29,
       30
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 25,
     "name": "Kabuterimon",
     "level": 2,
-    "hp": 117,
-    "atk": 26,
-    "def": 18,
-    "speed": 16,
+    "hp": 123,
+    "atk": 28,
+    "def": 30,
+    "speed": 19,
     "type": "electric",
     "image": "/digimons/level2/kabuterimon.png",
     "attacks": [
       31,
       39
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 26,
     "name": "Kuwagamon",
     "level": 2,
-    "hp": 117,
-    "atk": 26,
-    "def": 18,
-    "speed": 16,
+    "hp": 127,
+    "atk": 29,
+    "def": 27,
+    "speed": 22,
     "type": "electric",
     "image": "/digimons/level2/kuwagamon.png",
     "attacks": [
       32,
       39
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 27,
     "name": "Dokugumon",
     "level": 2,
-    "hp": 117,
-    "atk": 26,
-    "def": 18,
-    "speed": 16,
+    "hp": 110,
+    "atk": 30,
+    "def": 30,
+    "speed": 20,
     "type": "dark",
     "image": "/digimons/level2/dokugumon.png",
     "attacks": [
       33,
       34
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 28,
     "name": "Birdramon",
     "level": 2,
-    "hp": 111,
-    "atk": 27,
-    "def": 17,
-    "speed": 17,
+    "hp": 125,
+    "atk": 33,
+    "def": 27,
+    "speed": 22,
     "type": "wind",
     "image": "/digimons/level2/birdramon.png",
     "attacks": [
       24,
       32
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 29,
     "name": "Cockatrimon",
     "level": 2,
-    "hp": 111,
-    "atk": 27,
-    "def": 17,
-    "speed": 17,
+    "hp": 121,
+    "atk": 34,
+    "def": 25,
+    "speed": 20,
     "type": "wind",
     "image": "/digimons/level2/cockatrimon.png",
     "attacks": [
       32,
       1
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 30,
     "name": "Airdramon",
     "level": 2,
-    "hp": 111,
-    "atk": 27,
-    "def": 17,
-    "speed": 17,
+    "hp": 125,
+    "atk": 35,
+    "def": 25,
+    "speed": 21,
     "type": "wind",
     "image": "/digimons/level2/airdramon.png",
     "attacks": [
       32
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 31,
     "name": "Togemon",
     "level": 2,
-    "hp": 130,
-    "atk": 26,
-    "def": 22,
-    "speed": 12,
+    "hp": 116,
+    "atk": 32,
+    "def": 27,
+    "speed": 25,
     "type": "earth",
     "image": "/digimons/level2/togemon.png",
     "attacks": [
       34,
       33
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 32,
     "name": "Woodmon",
     "level": 2,
-    "hp": 130,
-    "atk": 26,
-    "def": 22,
-    "speed": 12,
+    "hp": 111,
+    "atk": 28,
+    "def": 28,
+    "speed": 24,
     "type": "earth",
     "image": "/digimons/level2/woodmon.png",
     "attacks": [
       34
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 33,
     "name": "Kiwimon",
     "level": 2,
-    "hp": 130,
-    "atk": 26,
-    "def": 22,
-    "speed": 12,
+    "hp": 127,
+    "atk": 30,
+    "def": 29,
+    "speed": 23,
     "type": "earth",
     "image": "/digimons/level2/kiwimon.png",
     "attacks": [
       32
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 34,
     "name": "Seadramon",
     "level": 2,
-    "hp": 124,
-    "atk": 27,
-    "def": 21,
-    "speed": 13,
+    "hp": 115,
+    "atk": 28,
+    "def": 26,
+    "speed": 19,
     "type": "water",
     "image": "/digimons/level2/seadramon.png",
     "attacks": [
       29
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 35,
     "name": "Whamon",
     "level": 2,
-    "hp": 124,
-    "atk": 27,
-    "def": 21,
-    "speed": 13,
+    "hp": 114,
+    "atk": 29,
+    "def": 26,
+    "speed": 24,
     "type": "water",
     "image": "/digimons/level2/whamon.png",
     "attacks": [
       30,
       29
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 36,
     "name": "Gesomon",
     "level": 2,
-    "hp": 124,
-    "atk": 27,
-    "def": 21,
-    "speed": 13,
+    "hp": 130,
+    "atk": 31,
+    "def": 28,
+    "speed": 24,
     "type": "water",
     "image": "/digimons/level2/gesomon.png",
     "attacks": [
       30
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 37,
     "name": "Angemon",
     "level": 2,
-    "hp": 117,
-    "atk": 29,
-    "def": 17,
-    "speed": 16,
+    "hp": 115,
+    "atk": 35,
+    "def": 28,
+    "speed": 26,
     "type": "light",
     "image": "/digimons/level2/angemon.png",
     "attacks": [
       35
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 38,
     "name": "Unimon",
     "level": 2,
-    "hp": 117,
-    "atk": 29,
-    "def": 17,
-    "speed": 16,
+    "hp": 112,
+    "atk": 31,
+    "def": 27,
+    "speed": 25,
     "type": "light",
     "image": "/digimons/level2/unimon.png",
     "attacks": [
       35
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 39,
     "name": "Drimogemon",
     "level": 2,
-    "hp": 124,
-    "atk": 29,
-    "def": 20,
-    "speed": 13,
+    "hp": 121,
+    "atk": 28,
+    "def": 29,
+    "speed": 23,
     "type": "earth",
     "image": "/digimons/level2/drimogemon.png",
     "attacks": [
       39,
       38
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 40,
     "name": "Wizarmon",
     "level": 2,
-    "hp": 117,
-    "atk": 26,
-    "def": 18,
-    "speed": 16,
+    "hp": 130,
+    "atk": 33,
+    "def": 24,
+    "speed": 25,
     "type": "dark",
     "image": "/digimons/level2/wizarmon.png",
     "attacks": [
       35,
       36
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 41,
     "name": "Tailmon",
     "level": 2,
-    "hp": 111,
-    "atk": 26,
-    "def": 16,
-    "speed": 17,
+    "hp": 116,
+    "atk": 28,
+    "def": 30,
+    "speed": 21,
     "type": "light",
     "image": "/digimons/level2/tailmon.png",
     "attacks": [
       35,
       1
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 42,
     "name": "Nefertimon",
     "level": 2,
-    "hp": 111,
-    "atk": 26,
-    "def": 16,
-    "speed": 17,
+    "hp": 125,
+    "atk": 33,
+    "def": 28,
+    "speed": 20,
     "type": "light",
     "image": "/digimons/level2/nefertimon.png",
     "attacks": [
       32
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 43,
     "name": "Devimon",
     "level": 2,
-    "hp": 111,
-    "atk": 31,
-    "def": 14,
-    "speed": 18,
+    "hp": 114,
+    "atk": 32,
+    "def": 23,
+    "speed": 23,
     "type": "dark",
     "image": "/digimons/level2/devimon.png",
     "attacks": [
       36,
       37
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 44,
     "name": "Bakemon",
     "level": 2,
-    "hp": 111,
-    "atk": 31,
-    "def": 14,
-    "speed": 18,
+    "hp": 110,
+    "atk": 35,
+    "def": 25,
+    "speed": 24,
     "type": "dark",
     "image": "/digimons/level2/bakemon.png",
     "attacks": [
       37
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 45,
     "name": "Orgemon",
     "level": 2,
-    "hp": 111,
-    "atk": 31,
-    "def": 14,
+    "hp": 128,
+    "atk": 29,
+    "def": 30,
     "speed": 18,
     "type": "dark",
     "image": "/digimons/level2/orgemon.png",
     "attacks": [
       1,
       38
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 46,
     "name": "Devidramon",
     "level": 2,
-    "hp": 111,
-    "atk": 31,
-    "def": 14,
-    "speed": 18,
+    "hp": 121,
+    "atk": 34,
+    "def": 23,
+    "speed": 24,
     "type": "dark",
     "image": "/digimons/level2/devidramon.png",
     "attacks": [
       36
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 47,
     "name": "Leomon",
     "level": 2,
-    "hp": 117,
-    "atk": 27,
-    "def": 18,
-    "speed": 13,
+    "hp": 116,
+    "atk": 31,
+    "def": 27,
+    "speed": 20,
     "type": "earth",
     "image": "/digimons/level2/leomon.png",
     "attacks": [
       28,
       35
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 48,
     "name": "Centarumon",
     "level": 2,
-    "hp": 117,
-    "atk": 27,
-    "def": 18,
-    "speed": 13,
+    "hp": 126,
+    "atk": 31,
+    "def": 27,
+    "speed": 22,
     "type": "light",
     "image": "/digimons/level2/centarumon.png",
     "attacks": [
       40
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 49,
     "name": "Golemon",
     "level": 2,
-    "hp": 143,
-    "atk": 25,
-    "def": 26,
-    "speed": 10,
+    "hp": 112,
+    "atk": 29,
+    "def": 23,
+    "speed": 23,
     "type": "earth",
     "image": "/digimons/level2/golemon.png",
     "attacks": [
       38
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 50,
     "name": "Monochromon",
     "level": 2,
-    "hp": 143,
-    "atk": 25,
-    "def": 26,
-    "speed": 10,
+    "hp": 127,
+    "atk": 35,
+    "def": 29,
+    "speed": 24,
     "type": "earth",
     "image": "/digimons/level2/monochromon.png",
     "attacks": [
       40,
       38
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 51,
     "name": "Starmon",
     "level": 2,
-    "hp": 104,
-    "atk": 23,
-    "def": 13,
-    "speed": 20,
+    "hp": 118,
+    "atk": 30,
+    "def": 28,
+    "speed": 25,
     "type": "light",
     "image": "/digimons/level2/starmon.png",
     "attacks": [
       41,
       40
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 52,
     "name": "Coelamon",
     "level": 2,
-    "hp": 124,
-    "atk": 29,
-    "def": 18,
-    "speed": 14,
+    "hp": 126,
+    "atk": 34,
+    "def": 23,
+    "speed": 20,
     "type": "water",
     "image": "/digimons/level2/coelamon.png",
     "attacks": [
       29
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 53,
     "name": "Dobermon",
     "level": 2,
-    "hp": 117,
-    "atk": 31,
-    "def": 16,
-    "speed": 17,
+    "hp": 115,
+    "atk": 28,
+    "def": 24,
+    "speed": 24,
     "type": "dark",
     "image": "/digimons/level2/dobermon.png",
     "attacks": [
       36
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 54,
     "name": "Guardromon",
     "level": 2,
-    "hp": 130,
-    "atk": 26,
-    "def": 23,
-    "speed": 10,
+    "hp": 121,
+    "atk": 28,
+    "def": 30,
+    "speed": 22,
     "type": "metal",
     "image": "/digimons/level2/guardromon.png",
     "attacks": [
       41
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 55,
     "name": "Clockmon",
     "level": 2,
-    "hp": 130,
-    "atk": 26,
-    "def": 23,
-    "speed": 10,
+    "hp": 117,
+    "atk": 34,
+    "def": 27,
+    "speed": 25,
     "type": "metal",
     "image": "/digimons/level2/clockmon.png",
     "attacks": [
       41
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 56,
     "name": "Tankmon",
     "level": 2,
-    "hp": 130,
-    "atk": 26,
-    "def": 23,
-    "speed": 10,
+    "hp": 127,
+    "atk": 33,
+    "def": 25,
+    "speed": 25,
     "type": "metal",
     "image": "/digimons/level2/tankmon.png",
     "attacks": [
       40
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 57,
     "name": "Vegimon",
     "level": 2,
-    "hp": 124,
-    "atk": 26,
-    "def": 21,
-    "speed": 13,
+    "hp": 126,
+    "atk": 35,
+    "def": 28,
+    "speed": 24,
     "type": "earth",
     "image": "/digimons/level2/vegimon.png",
     "attacks": [
       33
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 58,
     "name": "RedVegimon",
     "level": 2,
-    "hp": 124,
-    "atk": 26,
-    "def": 21,
-    "speed": 13,
+    "hp": 119,
+    "atk": 31,
+    "def": 30,
+    "speed": 23,
     "type": "earth",
     "image": "/digimons/level2/redvegimon.png",
     "attacks": [
       33
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 59,
     "name": "Sunflowmon",
     "level": 2,
-    "hp": 124,
-    "atk": 26,
-    "def": 21,
-    "speed": 13,
+    "hp": 115,
+    "atk": 34,
+    "def": 25,
+    "speed": 18,
     "type": "earth",
     "image": "/digimons/level2/sunflowmon.png",
     "attacks": [
       34
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 60,
     "name": "Numemon",
     "level": 2,
-    "hp": 104,
-    "atk": 23,
-    "def": 13,
+    "hp": 114,
+    "atk": 31,
+    "def": 26,
     "speed": 19,
     "type": "dark",
     "image": "/digimons/level2/numemon.png",
     "attacks": [
       22
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 61,
     "name": "Nanimon",
     "level": 2,
-    "hp": 104,
-    "atk": 23,
-    "def": 13,
-    "speed": 19,
+    "hp": 119,
+    "atk": 34,
+    "def": 24,
+    "speed": 18,
     "type": "dark",
     "image": "/digimons/level2/nanimon.png",
     "attacks": [
       1
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 62,
     "name": "Raremon",
     "level": 2,
-    "hp": 104,
-    "atk": 23,
-    "def": 13,
-    "speed": 19,
+    "hp": 129,
+    "atk": 33,
+    "def": 28,
+    "speed": 21,
     "type": "dark",
     "image": "/digimons/level2/raremon.png",
     "attacks": [
       33
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 63,
     "name": "Gekomon",
     "level": 2,
-    "hp": 124,
-    "atk": 25,
-    "def": 20,
-    "speed": 13,
+    "hp": 120,
+    "atk": 34,
+    "def": 26,
+    "speed": 20,
     "type": "water",
     "image": "/digimons/level2/gekomon.png",
     "attacks": [
       22
-    ]
+    ],
+    "archetype": "balanced"
   },
   {
     "id": 64,
     "name": "DarkTyranomon",
     "level": 2,
-    "hp": 130,
-    "atk": 33,
-    "def": 20,
-    "speed": 13,
+    "hp": 122,
+    "atk": 35,
+    "def": 27,
+    "speed": 24,
     "type": "dark",
     "image": "/digimons/level2/darktyranomon.png",
     "attacks": [
       36,
       25
-    ]
+    ],
+    "archetype": "balanced"
   }
 ]
