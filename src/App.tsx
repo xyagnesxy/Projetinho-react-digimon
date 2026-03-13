@@ -1,8 +1,8 @@
 import { use, useState } from 'react'
 import './App.css'
-import {MenuScreen} from './screens/MenuScreen'
+import {MenuScreen} from './screens/MenuScreen.tsx'
 import {BattleScreen} from './screens/battleScreen/BattleScreen'
-import {SelectionScreen} from './screens/SelectionScreen'
+import {SelectionScreen} from './screens/selectionScreen/SelectionScreen.tsx'
 import { useGame } from './context/GameContext'
 
 function App() {

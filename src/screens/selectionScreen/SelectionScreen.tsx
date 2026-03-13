@@ -1,12 +1,13 @@
-import React, { useState } from "react";
-import digimons from "../data/digimons.ts";
+import React, { useMemo, useState } from "react";
+import digimons from "../../data/digimons.ts";
 
-import { useDigimon } from "../context/DigimonContext";
-import { useGame } from "../context/GameContext";
-import { usePlayer} from "../context/PlayerContext";
-import "../styles/utils.css"
+import { useDigimon } from "../../context/DigimonContext.jsx";
+import { useGame } from "../../context/GameContext.tsx";
+import { usePlayer} from "../../context/PlayerContext.tsx";
+import "../../styles/utils.css"
 import styles from "./SelectionScreen.module.css";
-
+import { getRamdomDigimon } from "./menuFunctions.ts";
+import type { Digimon } from "../../types/Digimon.ts";
 
 
 export const SelectionScreen = () => {
@@ -14,8 +15,13 @@ export const SelectionScreen = () => {
   const {gameDispatch} = useGame()
   const {playerDispatch} = usePlayer()
  
-  const displayedDigimons = digimons.slice(0,6)
-  const [selectedDigimon, setSelectedDigimon] = useState(null)
+  const displayedDigimons = useMemo<Digimon[]>(()=>{
+    return getRamdomDigimon(6)
+  }
+  ,[] ) 
+  
+  
+  const [selectedDigimon, setSelectedDigimon] = useState<number>()
   
   return (
     
@@ -37,11 +43,11 @@ export const SelectionScreen = () => {
         ))}
       </div>
 
-      {selectedDigimon!==null && (
+      {selectedDigimon && (
         
         <div className={styles['selected-preview']}>
           <h2>{digimons[selectedDigimon].name}</h2>
-          <img src={digimons[selectedDigimon].image} alt={selectedDigimon.name} />
+          <img src={digimons[selectedDigimon].image} alt={digimons[selectedDigimon].name} />
         </div>
       )}
 

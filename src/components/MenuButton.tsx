@@ -1,8 +1,12 @@
 import React from 'react'
 import styles from './MenuButton.module.css'
 
+type Props={
+  text: string,
+  onClick: () => void
+}
 
-export const MenuButton = ({text, onClick})=>{
+export const MenuButton = ({text, onClick}: Props)=>{
 
   return (
     <button className={styles.button} onClick={onClick}>
