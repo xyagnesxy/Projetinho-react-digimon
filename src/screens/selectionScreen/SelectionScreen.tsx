@@ -1,7 +1,7 @@
-import React, { useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import digimons from "../../data/digimons.ts";
 
-import { useDigimon } from "../../context/DigimonContext.jsx";
+
 import { useGame } from "../../context/GameContext.tsx";
 import { usePlayer} from "../../context/PlayerContext.tsx";
 import "../../styles/utils.css"
@@ -21,7 +21,7 @@ export const SelectionScreen = () => {
   ,[] ) 
   
   
-  const [selectedDigimon, setSelectedDigimon] = useState<number>()
+  const [selectedDigimon, setSelectedDigimon] = useState<number>(0)
   
   return (
     
@@ -43,7 +43,7 @@ export const SelectionScreen = () => {
         ))}
       </div>
 
-      {selectedDigimon && (
+      {selectedDigimon>=0 && (
         
         <div className={styles['selected-preview']}>
           <h2>{digimons[selectedDigimon].name}</h2>

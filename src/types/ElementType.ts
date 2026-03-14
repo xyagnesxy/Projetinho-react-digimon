@@ -1,4 +1,4 @@
-export type Element = | "fire"
+export type ElementType =  "fire"
   | "water"
   | "wind"
   | "earth"

@@ -1,4 +1,4 @@
-import {useReducer} from "react";
+import {useEffect, useReducer} from "react";
 //import { useDigimon } from "../../context/DigimonContext";
 //import { useGame } from "../../context/GameContext";
 //import digimonData from "../../data/digimons.json";
@@ -10,6 +10,7 @@ import { usePlayer } from "../../context/PlayerContext";
 import {createInitialBattleState, battleReducer} from "./BattleReducer"
 import digimons from "../../data/digimons";
 import ataques from "../../data/attacks";
+import { useGame } from "../../context/GameContext";
 
 
 
@@ -17,7 +18,22 @@ import ataques from "../../data/attacks";
 export const BattleScreen = () => {
 
   const {playerState} = usePlayer()
+  const {gameDispatch} = useGame()
+
   const [battleState, battleDispatch] = useReducer(battleReducer, createInitialBattleState(playerState.player.digimonId, 2))
+  
+  useEffect(()=>{
+    if(battleState.battleTurn=="enemy"){
+      const timer = setTimeout(()=>{
+          battleDispatch({type: "ATTACK", attacker: battleState.enemyDigimon.id, defender: battleState.playerDigimon.id, attackId: ataques[battleState.enemyDigimon.attacks[0]].power})
+      }, 1000)
+      return () => clearTimeout(timer)
+    }else if(battleState.battleTurn=="victory" || battleState.battleTurn=="defeat" || battleState.battleTurn=="draw"){
+      gameDispatch({type: "CHANGE_SCREEN", payload: "menu"})
+      
+    }
+
+  }, [battleState.battleTurn])
 
 
   
@@ -25,10 +41,6 @@ export const BattleScreen = () => {
   
   const[hoveredAttack, setHoveredAtk] = useState(null);
   const[currentEffect, setCurrentEffect] = useState(null);
-
-  // Monta o digimon do jogador e do inimigo
-  const playerDigimon = digimonData.find(d => d.name === digimon1.name);
-  const enemyDigimon = digimonData[1];//por enquanto fixo
 
   // Puxa os ataques completos de cada um
   const getAttacks = (digimon) => {
@@ -38,12 +50,6 @@ export const BattleScreen = () => {
   const playerAttacks = getAttacks(playerDigimon);
   const enemyAttacks = getAttacks(enemyDigimon);
 
-  // Estados da batalha
-  const [playerHP, setPlayerHP] = useState(playerDigimon.hp);
-  const [enemyHP, setEnemyHP] = useState(enemyDigimon.hp);
-  const [isPlayerTurn, setIsPlayerTurn] = useState(true);
-  const [menuOpen, setMenuOpen] = useState(true);
-  const [attackMenuOpen, setAttackMenuOpen] = useState(false);
 
   // Função para calcular dano
   const calculateDamage = (attacker, defender, attack) => {
@@ -138,7 +144,7 @@ export const BattleScreen = () => {
         </div>
 
       </div>
-        {battleState.isMenuOpen && battleState.isPlayerTurn && (
+        {battleState.isMenuOpen && battleState.battleTurn=="player" && (
           
           <div className={styles["battle-menu"]}>
             {!battleState.isAttackMenuOpen ? (
@@ -150,7 +156,7 @@ export const BattleScreen = () => {
             ) : (
               <div className={styles["battle-menu-attacks"]}>
                 {battleState.playerDigimon.attacks.map((atk: number, index: number) => (
-                  <button className={styles[ataques[atk].type]} key={index} onClick={() => battleDispatch({type: "ATTACK", payload: digimons[battleState.playerDigimon.id].atk})} onMouseEnter={()=>console.log("implementar onmouseEnter")} onMouseLeave={()=>console.log("implementar onmouseLeave")}>
+                  <button className={styles[ataques[atk].type]} key={index} onClick={() => {battleDispatch({type: "ATTACK", attacker: battleState.playerDigimon.id, defender: battleState.enemyDigimon.id, attackId: ataques[atk].id})}} onMouseEnter={()=>console.log("implementar onmouseEnter")} onMouseLeave={()=>console.log("implementar onmouseLeave") } >
                     {ataques[atk].name}
                   </button>
                 ))}

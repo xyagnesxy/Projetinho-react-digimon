@@ -1,4 +1,3 @@
-import React from 'react'
 import './MenuScreen.module.css'
 import MenuButton  from '../components/MenuButton'
 import {useGame} from '../context/GameContext'

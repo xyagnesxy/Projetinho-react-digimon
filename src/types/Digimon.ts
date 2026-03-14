@@ -1,3 +1,4 @@
+import type { ElementType } from "./ElementType";
 import type {Evolutions} from "./Evolutions";
 
 export type Archetype = "balanced" | "striker" | "speed" | "tank" | "defender"
@@ -6,7 +7,7 @@ export type Digimon = {
     name: string,
     image: string,
     level: number,
-    type: string,
+    type: ElementType,
     hp: number,
     atk: number;
     def: number;

@@ -1,8 +1,15 @@
-import type {BattleDigimon} from "./BattleDigimon";
+import attacks from "../../data/attacks";
+import digimons from "../../data/digimons";
 import { createBattleDigimon } from "./BattleDigimon";
+import { calculateDamage } from "./damage";
+import { getTurn } from "./getTurn";
+import type { BattleState } from "./battleState";
+
 type BattleAction = {
   type: "ATTACK",
-  payload: number
+  attacker: number,
+  defender: number,
+  attackId: number
 }|{
     type: "INIT",
     payload: number
@@ -13,18 +20,12 @@ type BattleAction = {
     type: "OPEN_BATTLE_MENU",
     payload: boolean
 }
-type BattleState = {
-  playerDigimon: BattleDigimon,
-  enemyDigimon: BattleDigimon,
-  isPlayerTurn: boolean,
-  isMenuOpen: boolean,
-  isAttackMenuOpen: boolean
-}
+
 export function createInitialBattleState(playerId: number, enemyId: number): BattleState{
   return{
     playerDigimon: createBattleDigimon(playerId),
     enemyDigimon: createBattleDigimon(enemyId),
-    isPlayerTurn: true,
+    battleTurn: "player",
     isMenuOpen: true,
     isAttackMenuOpen: false
   }
@@ -33,12 +34,20 @@ export function createInitialBattleState(playerId: number, enemyId: number): Bat
 export function battleReducer(state: BattleState, action: BattleAction){
   switch(action.type){
     case "ATTACK":
-      return {
+      const nextState = {
         ...state,
+        playerDigimon: {
+          ...state.playerDigimon,
+          currentHp: state.battleTurn=="enemy"? state.playerDigimon.currentHp - calculateDamage({attack: digimons[action.attacker].atk, defense: digimons[action.defender].def, power: attacks[action.attackId].power, attackType: attacks[action.attackId].type, defenseType: digimons[action.defender].type}): state.playerDigimon.currentHp 
+        },
         enemyDigimon: {
           ...state.enemyDigimon,
-          currentHp: state.enemyDigimon.currentHp - action.payload
-        }
+          currentHp: state.battleTurn=="player"? state.enemyDigimon.currentHp - calculateDamage({attack: digimons[action.attacker].atk, defense: digimons[action.defender].def, power: attacks[action.attackId].power, attackType: attacks[action.attackId].type, defenseType: digimons[action.defender].type}): state.enemyDigimon.currentHp
+        }, 
+      }
+      return {
+        ...nextState,
+        battleTurn: getTurn(nextState)
       }
     case "OPEN_ATTACK_MENU":
         return{

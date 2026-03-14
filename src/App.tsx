@@ -1,4 +1,3 @@
-import { use, useState } from 'react'
 import './App.css'
 import {MenuScreen} from './screens/MenuScreen.tsx'
 import {BattleScreen} from './screens/battleScreen/BattleScreen'

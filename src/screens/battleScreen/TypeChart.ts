@@ -1,6 +1,6 @@
-import type {Element} from "../../types/Element";
+import type {ElementType} from "../../types/ElementType";
 
-export const typeChart : Record<Element, Partial<Record<Element, number>>> = {
+export const typeChart : Record<ElementType, Partial<Record<ElementType, number>>> = {
     fire:{
         plant: 2,
         ice: 2,
@@ -40,7 +40,7 @@ export const typeChart : Record<Element, Partial<Record<Element, number>>> = {
 }
 
 
-export function getTypeModifier(attacking: Element, defender: Element){
+export function getTypeModifier(attacking: ElementType, defender: ElementType){
     return typeChart[attacking]?.[defender]?? 1 
 
 }
