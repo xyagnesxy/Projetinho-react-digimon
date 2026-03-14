@@ -21,7 +21,7 @@ export const SelectionScreen = () => {
   ,[] ) 
   
   
-  const [selectedDigimon, setSelectedDigimon] = useState<number>(0)
+  const [selectedDigimon, setSelectedDigimon] = useState<number|null>(null)
   
   return (
     
@@ -34,7 +34,8 @@ export const SelectionScreen = () => {
           <div
             key= {index}
             className={styles['digimon-card']}
-            onClick={() => {setSelectedDigimon(digimon.id)}}
+            //onClick={() => {setSelectedDigimon(digimon.id)}}
+            onMouseOver={()=>{setSelectedDigimon(digimon.id)}}
           >
             {/*o src contem um new url porque o vercel não identificaria no momento de build que deveria processar se fosse uma string dinâmica */}
             <img src={digimon.image} alt={digimon.name}  />
@@ -43,7 +44,7 @@ export const SelectionScreen = () => {
         ))}
       </div>
 
-      {selectedDigimon>=0 && (
+      {selectedDigimon && (
         
         <div className={styles['selected-preview']}>
           <h2>{digimons[selectedDigimon].name}</h2>
