@@ -3,12 +3,13 @@ import styles from './MenuButton.module.css'
 type Props={
   text: string,
   onClick: () => void
+  disabled?: boolean
 }
 
-export const MenuButton = ({text, onClick}: Props)=>{
+export const MenuButton = ({text, onClick, disabled=false}: Props)=>{
 
   return (
-    <button className={styles.button} onClick={onClick}>
+    <button disabled={disabled} className={styles.button} onClick={onClick}>
         {text}
     </button>
   )

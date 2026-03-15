@@ -46,6 +46,7 @@ export const SelectionScreen = () => {
       )}
 
       <MenuButton
+      disabled={!selectionState.selectedDigimon}
         text="Confirmar"
         onClick={() => {
             gameDispatch({type: "CHANGE_SCREEN", payload: "battle"}); playerDispatch({type: "SELECT_DIGIMON", payload:selectionState.selectedDigimon?.id}) }

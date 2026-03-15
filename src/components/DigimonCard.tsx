@@ -17,8 +17,7 @@ export const DigimonCard = ({digimonId}: Props)=>{
         return d.id==digimonId
     }) as Digimon
     const isUnlocked = gameState.discoveredDigimons.includes(digimonId)
-    console.log("a includes pra o digimon de id: ", digimonId, "é: ", gameState.discoveredDigimons.includes(digimonId))
-    console.log(isUnlocked)
+    
     
 
 
