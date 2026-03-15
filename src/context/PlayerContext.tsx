@@ -12,7 +12,7 @@ type PlayerState = {
 }
 type PlayerAction = {
     type: "SELECT_DIGIMON",
-    payload: number
+    payload: number|undefined
 }
 type PlayerContextType = {
     playerState: PlayerState,
@@ -20,12 +20,16 @@ type PlayerContextType = {
 }
 const initialPlayerState: PlayerState = {
     player: {
-        digimonId: 0
+        digimonId: undefined
     }
 }
 const playerReducer = (state: PlayerState, action: PlayerAction): PlayerState => {
     switch (action.type) {
         case "SELECT_DIGIMON":
+            if(action.payload===undefined){
+            
+                return state
+            }
             return {
                 ...state,
                 player:{

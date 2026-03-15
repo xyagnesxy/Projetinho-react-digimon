@@ -1,5 +1,6 @@
 import { createContext, useReducer, useContext } from "react";
 
+
 type Props = {
     children: React.ReactNode;
 }
@@ -26,7 +27,6 @@ const GameContext = createContext<GameContextType>({
 const gameReducer = (state: GameStateType, action: ActionType): GameStateType  =>{
   switch(action.type){
     case "CHANGE_SCREEN":
-      
       return {
         ...state,
         currentScreen: action.payload

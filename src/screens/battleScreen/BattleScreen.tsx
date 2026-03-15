@@ -19,7 +19,9 @@ export const BattleScreen = () => {
 
   const {playerState} = usePlayer()
   const {gameDispatch} = useGame()
-
+  if(playerState.player.digimonId===undefined){
+    throw new Error("Nenhum digimon selecionado")
+  }
   const [battleState, battleDispatch] = useReducer(battleReducer, createInitialBattleState(playerState.player.digimonId, 2))
   
   useEffect(()=>{

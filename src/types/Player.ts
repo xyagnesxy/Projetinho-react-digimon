@@ -1,4 +1,4 @@
 export type Player = {
-    digimonId: number
+    digimonId: number |undefined
 }
 
