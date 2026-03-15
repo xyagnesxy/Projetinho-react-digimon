@@ -27,3 +27,10 @@
   box-shadow: 0 0 16px rgba(255, 255, 255, 0.3);
   border-color: #ffcc00;
 }
+
+.digimon-card.locked {
+  filter: brightness(0) contrast(1);  
+}
+.digimon-card.locked .digimon-name{
+  visibility: hidden;
+}

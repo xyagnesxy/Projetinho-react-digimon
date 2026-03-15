@@ -16,15 +16,15 @@ export const CatalogScreen = ()=>{
         < div className={` game-layout ${styles["catalog"]}`}>
         <div className={`${styles["catalog-grid"]} ` } >
                 {
-                    digimons.map((d) => {
+                    digimons.map((d, index) => {
                         
-                        return  <div className={styles["catalog-itens"]}>
+                        return  <div key={index} className={styles["catalog-itens"]}>
                                     <DigimonCard digimonId={d.id}/>
                                         <div className={styles['catalog-evolutions']}>
                                         {
                                             d.evolutions &&(
-                                                d.evolutions.map(e=>{
-                                                    return  <div className={styles['catalog-evolution']}>
+                                                d.evolutions.map((e, index)=>{
+                                                    return  <div key={index} className={styles['catalog-evolution']}>
                                                                 <DigimonCard digimonId={e.to}/>
                                                             </div>
                                                 })

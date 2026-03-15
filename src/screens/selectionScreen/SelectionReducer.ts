@@ -19,6 +19,7 @@ type SelectionState = {
     previewedDigimon: Digimon | undefined
 }
 export function createInitialSelectionState(): SelectionState{
+        
     return{
         displayedDigimons: getRamdomDigimon(6),
         selectedDigimon: undefined,

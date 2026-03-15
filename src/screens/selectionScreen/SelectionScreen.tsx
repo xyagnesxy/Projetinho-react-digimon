@@ -1,16 +1,24 @@
-import { useReducer } from "react";
+import { useEffect, useReducer } from "react";
 import { useGame } from "../../context/GameContext.tsx";
 import { usePlayer} from "../../context/PlayerContext.tsx";
 import  "../../styles/utils.css"
 import styles from "./SelectionScreen.module.css";
 import { selectionReducer, createInitialSelectionState } from "./SelectionReducer.ts";
 import { DigimonCard } from "../../components/DigimonCard.tsx";
+import MenuButton from "../../components/MenuButton.tsx";
 
 export const SelectionScreen = () => {
   
   const {gameDispatch} = useGame()
   const {playerDispatch} = usePlayer()
   const [selectionState, selectionDispatch] = useReducer(selectionReducer, createInitialSelectionState())
+
+  useEffect(()=>{
+    selectionState.displayedDigimons.map(d=>{
+      gameDispatch({type: "ADD_DISCOVERED_DIGIMON", payload: d.id})
+    })
+  }, [])
+
  
   return (
     
@@ -37,15 +45,16 @@ export const SelectionScreen = () => {
         </div>
       )}
 
-      <button
-        className={'confirm-button'}
+      <MenuButton
+        text="Confirmar"
         onClick={() => {
             gameDispatch({type: "CHANGE_SCREEN", payload: "battle"}); playerDispatch({type: "SELECT_DIGIMON", payload:selectionState.selectedDigimon?.id}) }
           
         }
-      >
-        Confirmar
-      </button>
+      />
+      
+      
+        <MenuButton text="voltar" onClick={()=>gameDispatch({type: "CHANGE_SCREEN", payload: "menu"})}/>
     </div>
       
   );
