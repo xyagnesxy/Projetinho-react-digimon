@@ -6,10 +6,10 @@ type Props = {
 }
 type ActionType ={
   type: "CHANGE_SCREEN",
-  payload: "menu" | "selection" | "battle"
+  payload: "menu" | "selection" | "battle" | "catalog"
 }
 type GameStateType = {
-  currentScreen: "menu" | "selection" | "battle",
+  currentScreen: "menu" | "selection" | "battle" | "catalog",
   currentLevel: number
 }
 type GameContextType={

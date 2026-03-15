@@ -1,5 +1,5 @@
 export type Evolutions = {
-    to: string,
+    to: number,
     chance: number
 }
 

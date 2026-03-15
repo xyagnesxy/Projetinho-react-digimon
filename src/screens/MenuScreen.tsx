@@ -14,6 +14,7 @@ export const MenuScreen = () => {
 
             <div className='menu-buttons'>
                 <MenuButton text='Começar' onClick={()=>gameDispatch({type: "CHANGE_SCREEN", payload: "selection"})}/>
+                <MenuButton text="catalogo" onClick={()=>gameDispatch({type: "CHANGE_SCREEN", payload: "catalog"})}/>
             </div>
 
             

@@ -1,7 +1,7 @@
 import type { Attack } from "../types/Attack";
 import listaJson from "./attacks.json";
 
-const attacks: Attack[] = listaJson as Attack[]
+const attacks: Attack[] = structuredClone(listaJson) as Attack[]
 
 
 export default attacks;

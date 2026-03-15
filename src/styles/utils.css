@@ -1,14 +1,14 @@
 .game-layout {
+  display: flex;
   width: 100vw;
   height: 100vh;
-  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: #101820;  
   color: #fff;
   font-family: 'Roboto', sans-serif;
-  overflow: hidden;
+  
 }
 
 /* Quando a tela for de batalha, sobrescrevemos o layout base */
@@ -18,4 +18,64 @@
   background-color: #2b3a67;
   background-image: url("backgrounds/The_lake.webp");
   background-size: cover;
+}
+
+.digimon-grid {
+  overflow: auto;
+  scrollbar-width: none;
+  display: grid;  
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 24px;
+  width: 80%;
+  max-width: 800px;
+  margin-top: 20px;
+  max-height: 80%;
+  
+}
+
+
+
+
+.selected-preview {
+  display: inline-block;      /* não ocupa toda a largura */
+  position: absolute;         /* tira do fluxo vertical */
+  right: 20px;                /* distância da borda direita */
+  bottom: 80px;               /* acima do botão */
+  width: 400px;
+  height: 500px;
+  text-align: center;
+  background: rgba(255,255,255,0.1);
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 8px;
+}
+
+.selected-preview img {
+  width: 100%;
+  height: auto;
+  display: block;
+  
+}
+
+.digimon-card.selected {
+  transform: scale(1.1);
+  border: 3px solid gold;
+  box-shadow: 0 0 15px gold;
+}
+
+.confirm-button {
+  margin-top: 30px;
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  background: linear-gradient(135deg, #ffb703, #fb8500);
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.confirm-button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #ffb703, #ff6600);
 }

@@ -1,0 +1,29 @@
+
+.digimon-card {
+  position: relative;
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid transparent;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border 0.25s ease;
+  cursor: pointer;
+}
+.digimon-name {
+  text-align: center;
+  padding: 8px;
+  background: rgba(0, 0, 0, 0.4);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.digimon-card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+}
+
+.digimon-card:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 16px rgba(255, 255, 255, 0.3);
+  border-color: #ffcc00;
+}
