@@ -1,5 +1,7 @@
 /* Área geral da batalha */
 .battle-screen {
+  background-image: url("../../../public/backgrounds/praia.png");
+  background-size: cover;
   position: relative;
   width: 100%;
   height: 100%;
@@ -21,6 +23,7 @@
 
 /* Lado do jogador (parte inferior) */
 .player-side {
+  
   position: absolute;
   bottom: 20%;
   left: 5%;
@@ -144,7 +147,7 @@
   border-color: rgb(110, 223, 246);
   border-width: 5px;
 }
-.eletric{
+.electric{
   color: rgb(234, 255, 12);
   border-color: rgb(234, 255, 12);
   border-width: 5px;
@@ -157,5 +160,25 @@
 .normal{
   color: rgb(176, 191, 191);
   border-color: rgb(176, 191, 191);
+  border-width: 5px;
+}
+.earth{
+  color: rgb(133, 76, 8);
+  border-color: rgb(133, 76, 8);
+  border-width: 5px;
+}
+.water{
+  color: rgb(19, 70, 237);
+  border-color: rgb(19, 70, 237);
+  border-width: 5px;
+}
+.light{
+  color: rgb(254, 231, 154);
+  border-color: rgb(254, 231, 154);
+  border-width: 5px;
+}
+.dark{
+  color: rgb(139, 27, 149);
+  border-color: rgb(139, 27, 149);
   border-width: 5px;
 }
